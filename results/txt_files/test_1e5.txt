@@ -1,0 +1,466 @@
+(base) [npovey@ka unet15]$ source activate keras-gpu
+(keras-gpu) [npovey@kaczmarz unet15]$ python main.py
+Using TensorFlow backend.
+GPU
+
+2019-09-12 18:40:39.072045: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-09-12 18:40:39.123035: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2019-09-12 18:40:39.125400: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x562e546c0980 executing computations on platform Host. Devices:
+2019-09-12 18:40:39.125679: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-09-12 18:40:39.130245: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-09-12 18:40:40.692744: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Quadro RTX 5000 major: 7 minor: 5 memoryClockRate(GHz): 1.815
+pciBusID: 0000:67:00.0
+2019-09-12 18:40:40.695536: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-12 18:40:40.739915: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-12 18:40:40.767581: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-12 18:40:40.774939: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-12 18:40:40.824376: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-12 18:40:40.833149: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-12 18:40:40.953161: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-12 18:40:40.957947: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-12 18:40:40.958723: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-12 18:40:41.061570: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-12 18:40:41.061610: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-12 18:40:41.061638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-12 18:40:41.064398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/device:GPU:0 with 15170 MB memory) -> physical GPU (device: 0, name: Quadro RTX 5000, pci bus id: 0000:67:00.0, compute capability: 7.5)
+2019-09-12 18:40:41.066993: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x562e55507cc0 executing computations on platform CUDA. Devices:
+2019-09-12 18:40:41.067057: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Quadro RTX 5000, Compute Capability 7.5
+
+
+Execution Environment:
+
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 7846709245726838044
+, name: "/device:XLA_CPU:0"
+device_type: "XLA_CPU"
+memory_limit: 17179869184
+locality {
+}
+incarnation: 1385646961292301350
+physical_device_desc: "device: XLA_CPU device"
+, name: "/device:GPU:0"
+device_type: "GPU"
+memory_limit: 15907910452
+locality {
+  bus_id: 1
+  links {
+  }
+}
+incarnation: 9485973606354084407
+physical_device_desc: "device: 0, name: Quadro RTX 5000, pci bus id: 0000:67:00.0, compute capability: 7.5"
+, name: "/device:XLA_GPU:0"
+device_type: "XLA_GPU"
+memory_limit: 17179869184
+locality {
+}
+incarnation: 6860016104413892589
+physical_device_desc: "device: XLA_GPU device"
+]
+2019-09-12 18:40:41.069967: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Quadro RTX 5000 major: 7 minor: 5 memoryClockRate(GHz): 1.815
+pciBusID: 0000:67:00.0
+2019-09-12 18:40:41.070033: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-12 18:40:41.070046: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-12 18:40:41.070058: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-12 18:40:41.070069: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-12 18:40:41.070080: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-12 18:40:41.070091: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-12 18:40:41.070103: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-12 18:40:41.071742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-12 18:40:41.071787: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-12 18:40:41.071797: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-12 18:40:41.071805: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-12 18:40:41.073546: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15170 MB memory) -> physical GPU (device: 0, name: Quadro RTX 5000, pci bus id: 0000:67:00.0, compute capability: 7.5)
+W0912 18:40:41.078385 139977086744384 deprecation_wrapper.py:119] From /home/npovey/anaconda3/envs/keras-gpu/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W0912 18:40:41.079381 139977086744384 deprecation_wrapper.py:119] From /home/npovey/anaconda3/envs/keras-gpu/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W0912 18:40:41.100545 139977086744384 deprecation_wrapper.py:119] From /home/npovey/anaconda3/envs/keras-gpu/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+W0912 18:40:41.100661 139977086744384 deprecation_wrapper.py:119] From /home/npovey/anaconda3/envs/keras-gpu/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+W0912 18:40:41.100753 139977086744384 deprecation_wrapper.py:119] From /home/npovey/anaconda3/envs/keras-gpu/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+W0912 18:40:43.987976 139977086744384 deprecation_wrapper.py:119] From /home/npovey/anaconda3/envs/keras-gpu/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1834: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+W0912 18:40:44.054850 139977086744384 deprecation_wrapper.py:119] From /home/npovey/anaconda3/envs/keras-gpu/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3976: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0912 18:40:44.908441 139977086744384 deprecation.py:323] From /home/npovey/anaconda3/envs/keras-gpu/lib/python3.6/site-packages/tensorflow/python/ops/losses/losses_impl.py:121: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+[*] Initialize model successfully...
+[*] Evaluating...
+W0912 18:40:46.309886 139977086744384 deprecation.py:323] From /data/npovey/unet15/model.py:484: DatasetV1.make_initializable_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_initializable_iterator(dataset)`.
+2019-09-12 18:40:46.420640: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+[*] Reading checkpoint...
+W0912 18:40:46.602355 139977086744384 deprecation.py:323] From /home/npovey/anaconda3/envs/keras-gpu/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+I0912 18:40:46.603214 139977086744384 saver.py:1280] Restoring parameters from ./checkpoints/UNet-tensorflow-49
+ [*] Load weights SUCCESS...
+[*] start testing...
+2019-09-12 18:40:47.426207: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+img0 PSNR: 50.64
+img1 PSNR: 45.37
+img2 PSNR: 50.92
+img3 PSNR: 47.68
+img4 PSNR: 44.88
+img5 PSNR: 45.65
+img6 PSNR: 48.55
+img7 PSNR: 43.59
+img8 PSNR: 39.69
+img9 PSNR: 42.04
+img10 PSNR: 38.88
+img11 PSNR: 42.50
+img12 PSNR: 44.38
+img13 PSNR: 45.25
+img14 PSNR: 45.59
+img15 PSNR: 45.76
+img16 PSNR: 39.39
+img17 PSNR: 40.06
+img18 PSNR: 45.78
+img19 PSNR: 46.16
+img20 PSNR: 45.82
+img21 PSNR: 46.55
+img22 PSNR: 44.74
+img23 PSNR: 45.42
+img24 PSNR: 43.33
+img25 PSNR: 35.76
+img26 PSNR: 38.01
+img27 PSNR: 36.68
+img28 PSNR: 38.13
+img29 PSNR: 40.41
+img30 PSNR: 34.80
+img31 PSNR: 40.95
+img32 PSNR: 40.70
+img33 PSNR: 40.81
+img34 PSNR: 37.72
+img35 PSNR: 38.04
+img36 PSNR: 36.63
+img37 PSNR: 37.17
+img38 PSNR: 42.83
+img39 PSNR: 37.99
+img40 PSNR: 37.86
+img41 PSNR: 43.73
+img42 PSNR: 40.10
+img43 PSNR: 36.47
+img44 PSNR: 43.94
+img45 PSNR: 44.76
+img46 PSNR: 41.63
+img47 PSNR: 47.37
+img48 PSNR: 43.37
+img49 PSNR: 43.40
+img50 PSNR: 43.43
+img51 PSNR: 43.09
+img52 PSNR: 40.57
+img53 PSNR: 33.86
+img54 PSNR: 35.02
+img55 PSNR: 42.67
+img56 PSNR: 45.03
+img57 PSNR: 46.67
+img58 PSNR: 47.89
+img59 PSNR: 47.29
+img60 PSNR: 39.32
+img61 PSNR: 45.58
+img62 PSNR: 44.84
+img63 PSNR: 42.22
+img64 PSNR: 50.53
+img65 PSNR: 50.14
+img66 PSNR: 40.52
+img67 PSNR: 40.27
+img68 PSNR: 50.47
+img69 PSNR: 49.13
+img70 PSNR: 49.44
+img71 PSNR: 45.38
+img72 PSNR: 41.27
+img73 PSNR: 49.29
+img74 PSNR: 41.87
+img75 PSNR: 40.59
+img76 PSNR: 43.97
+img77 PSNR: 42.32
+img78 PSNR: 47.10
+img79 PSNR: 42.98
+img80 PSNR: 36.81
+img81 PSNR: 36.20
+img82 PSNR: 38.42
+img83 PSNR: 39.86
+img84 PSNR: 43.53
+img85 PSNR: 37.82
+img86 PSNR: 48.08
+img87 PSNR: 36.57
+img88 PSNR: 43.03
+img89 PSNR: 37.99
+img90 PSNR: 43.74
+img91 PSNR: 43.24
+img92 PSNR: 44.83
+img93 PSNR: 38.77
+img94 PSNR: 43.87
+img95 PSNR: 45.58
+img96 PSNR: 37.56
+img97 PSNR: 45.61
+img98 PSNR: 39.04
+img99 PSNR: 38.03
+img100 PSNR: 39.27
+img101 PSNR: 43.61
+img102 PSNR: 37.11
+img103 PSNR: 42.33
+img104 PSNR: 37.89
+img105 PSNR: 39.56
+img106 PSNR: 43.01
+img107 PSNR: 42.85
+img108 PSNR: 38.31
+img109 PSNR: 44.01
+img110 PSNR: 43.43
+img111 PSNR: 44.52
+img112 PSNR: 41.51
+img113 PSNR: 38.08
+img114 PSNR: 43.56
+img115 PSNR: 37.69
+img116 PSNR: 45.85
+img117 PSNR: 38.96
+img118 PSNR: 44.25
+img119 PSNR: 41.36
+img120 PSNR: 42.30
+img121 PSNR: 45.52
+img122 PSNR: 48.48
+img123 PSNR: 41.62
+img124 PSNR: 46.83
+img125 PSNR: 46.65
+img126 PSNR: 44.18
+img127 PSNR: 44.59
+img128 PSNR: 45.60
+img129 PSNR: 40.69
+img130 PSNR: 40.36
+img131 PSNR: 36.44
+img132 PSNR: 39.64
+img133 PSNR: 40.24
+img134 PSNR: 41.93
+img135 PSNR: 35.20
+img136 PSNR: 35.97
+img137 PSNR: 36.20
+img138 PSNR: 39.08
+img139 PSNR: 42.75
+img140 PSNR: 37.18
+img141 PSNR: 43.00
+img142 PSNR: 40.24
+img143 PSNR: 45.25
+img144 PSNR: 45.68
+img145 PSNR: 45.98
+img146 PSNR: 41.73
+img147 PSNR: 44.66
+img148 PSNR: 39.41
+img149 PSNR: 40.48
+img150 PSNR: 39.51
+img151 PSNR: 44.95
+img152 PSNR: 39.99
+img153 PSNR: 36.74
+img154 PSNR: 36.00
+img155 PSNR: 36.70
+img156 PSNR: 36.88
+img157 PSNR: 40.07
+img158 PSNR: 36.30
+img159 PSNR: 38.50
+img160 PSNR: 37.35
+img161 PSNR: 41.49
+img162 PSNR: 38.17
+img163 PSNR: 47.30
+img164 PSNR: 35.88
+img165 PSNR: 38.79
+img166 PSNR: 37.30
+img167 PSNR: 47.20
+img168 PSNR: 35.90
+img169 PSNR: 39.82
+img170 PSNR: 39.91
+img171 PSNR: 41.92
+img172 PSNR: 37.58
+img173 PSNR: 40.24
+img174 PSNR: 41.62
+img175 PSNR: 40.62
+img176 PSNR: 38.17
+img177 PSNR: 38.12
+img178 PSNR: 44.37
+img179 PSNR: 38.44
+img180 PSNR: 42.19
+img181 PSNR: 38.38
+img182 PSNR: 38.37
+img183 PSNR: 42.64
+img184 PSNR: 44.23
+img185 PSNR: 37.43
+img186 PSNR: 43.63
+img187 PSNR: 42.36
+img188 PSNR: 43.24
+img189 PSNR: 43.65
+img190 PSNR: 36.04
+img191 PSNR: 36.62
+img192 PSNR: 36.33
+img193 PSNR: 47.59
+img194 PSNR: 40.53
+img195 PSNR: 37.02
+img196 PSNR: 40.24
+img197 PSNR: 43.87
+img198 PSNR: 36.44
+img199 PSNR: 43.60
+img200 PSNR: 40.18
+img201 PSNR: 43.29
+img202 PSNR: 48.99
+img203 PSNR: 48.71
+img204 PSNR: 43.69
+img205 PSNR: 40.09
+img206 PSNR: 39.10
+img207 PSNR: 41.09
+img208 PSNR: 43.00
+img209 PSNR: 48.95
+img210 PSNR: 44.41
+img211 PSNR: 43.27
+img212 PSNR: 42.23
+img213 PSNR: 42.27
+img214 PSNR: 43.49
+img215 PSNR: 42.71
+img216 PSNR: 49.31
+img217 PSNR: 37.61
+img218 PSNR: 36.71
+img219 PSNR: 47.95
+img220 PSNR: 37.26
+img221 PSNR: 43.48
+img222 PSNR: 43.73
+img223 PSNR: 41.79
+img224 PSNR: 43.68
+img225 PSNR: 38.57
+img226 PSNR: 44.05
+img227 PSNR: 41.45
+img228 PSNR: 43.82
+img229 PSNR: 41.74
+img230 PSNR: 42.40
+img231 PSNR: 51.48
+img232 PSNR: 44.96
+img233 PSNR: 49.50
+img234 PSNR: 45.61
+img235 PSNR: 44.91
+img236 PSNR: 39.59
+img237 PSNR: 44.25
+img238 PSNR: 37.96
+img239 PSNR: 44.79
+img240 PSNR: 40.61
+img241 PSNR: 42.89
+img242 PSNR: 41.92
+img243 PSNR: 41.02
+img244 PSNR: 41.71
+img245 PSNR: 37.44
+img246 PSNR: 38.43
+img247 PSNR: 38.58
+img248 PSNR: 39.34
+img249 PSNR: 34.80
+img250 PSNR: 35.19
+img251 PSNR: 38.30
+img252 PSNR: 39.16
+img253 PSNR: 40.02
+img254 PSNR: 38.46
+img255 PSNR: 37.28
+img256 PSNR: 41.77
+img257 PSNR: 38.97
+img258 PSNR: 40.54
+img259 PSNR: 33.95
+img260 PSNR: 38.55
+img261 PSNR: 33.45
+img262 PSNR: 36.50
+img263 PSNR: 40.23
+img264 PSNR: 33.96
+img265 PSNR: 41.47
+img266 PSNR: 39.43
+img267 PSNR: 50.34
+img268 PSNR: 44.88
+img269 PSNR: 50.50
+img270 PSNR: 42.67
+img271 PSNR: 44.13
+img272 PSNR: 39.25
+img273 PSNR: 45.49
+img274 PSNR: 43.41
+img275 PSNR: 38.94
+img276 PSNR: 43.88
+img277 PSNR: 43.74
+img278 PSNR: 50.35
+img279 PSNR: 41.22
+img280 PSNR: 42.42
+img281 PSNR: 44.90
+img282 PSNR: 45.30
+img283 PSNR: 40.28
+img284 PSNR: 44.40
+img285 PSNR: 40.87
+img286 PSNR: 40.75
+img287 PSNR: 40.40
+img288 PSNR: 34.89
+img289 PSNR: 39.88
+img290 PSNR: 42.99
+img291 PSNR: 40.97
+img292 PSNR: 48.78
+img293 PSNR: 47.54
+img294 PSNR: 39.79
+img295 PSNR: 43.39
+img296 PSNR: 41.00
+img297 PSNR: 39.42
+img298 PSNR: 38.12
+img299 PSNR: 48.97
+img300 PSNR: 47.53
+img301 PSNR: 48.94
+img302 PSNR: 47.51
+img303 PSNR: 49.91
+img304 PSNR: 42.09
+img305 PSNR: 45.91
+img306 PSNR: 43.26
+img307 PSNR: 42.16
+img308 PSNR: 47.99
+img309 PSNR: 42.17
+img310 PSNR: 43.32
+img311 PSNR: 43.17
+img312 PSNR: 49.49
+img313 PSNR: 49.31
+img314 PSNR: 42.66
+img315 PSNR: 42.44
+img316 PSNR: 48.08
+img317 PSNR: 35.86
+img318 PSNR: 41.39
+img319 PSNR: 35.57
+img320 PSNR: 35.26
+img321 PSNR: 45.74
+img322 PSNR: 48.04
+img323 PSNR: 47.28
+img324 PSNR: 45.20
+img325 PSNR: 46.53
+img326 PSNR: 38.22
+img327 PSNR: 45.19
+img328 PSNR: 38.94
+img329 PSNR: 42.35
+img330 PSNR: 48.23
+img331 PSNR: 42.31
+img332 PSNR: 40.01
+img333 PSNR: 39.93
+img334 PSNR: 40.62
+img335 PSNR: 43.39
+img336 PSNR: 43.10
+img337 PSNR: 41.79
+img338 PSNR: 43.22
+img339 PSNR: 41.46
+img340 PSNR: 44.97
+img341 PSNR: 45.70
+img342 PSNR: 38.97
+img343 PSNR: 46.75
+img344 PSNR: 47.37
+img345 PSNR: 48.64
+img346 PSNR: 46.01
+img347 PSNR: 41.53
+img348 PSNR: 38.93
+img349 PSNR: 49.13
+img350 PSNR: 45.62
+img351 PSNR: 41.25
+img352 PSNR: 40.26
+img353 PSNR: 40.48
+--- Average PSNR 42.11 ---
+(keras-gpu) [npovey@ka unet15]$ cp -r checkpoints/ ldct_1e5
+(keras-gpu) [npovey@ka unet15]$ 
