@@ -44,7 +44,7 @@ scp -r npovey@ka:/data/CT_data/images/* CT_data/images
 tensorboard --logdir=./logs
 http://0.0.0.0:6006
 ```
-##### DnCnn vs UNet15 training time
+##### UNet vs DnCNN (Denoising CNN) training time
 
 | Low Dose Image | UNet                              | DnCNN                             |
 | -------------- | ----------------------------------| ----------------------------------|
