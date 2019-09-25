@@ -44,6 +44,17 @@ scp -r npovey@ka:/data/CT_data/images/* CT_data/images
 tensorboard --logdir=./logs
 http://0.0.0.0:6006
 ```
+##### DnCnn vs UNet15 training time
+
+| Low Dose Image | DnCnn                               | UNet                              |
+| -------------- | ----------------------------------- | ----------------------------------- |
+| sparseview_60  | Avg PSNR: 32.30    Avg SSIM: 0.8560 | Avg PSNR: 33.28	Avg SSIM: 0.8858 |
+| sparseview_90  | Avg PSNR: 35.13    Avg SSIM: 0.8892 | Avg PSNR: 35.42	Avg SSIM: 0.9038 |
+| sparseview_180 | Avg PSNR: 39.77    Avg SSIM: 0.9341 | Avg PSNR: 39.48	Avg SSIM: 0.9319 |
+| ldct_7e4       | Avg PSNR: 42.00	Avg SSIM: 0.9444 | Avg PSNR: 41.78	Avg SSIM: 0.9429 |
+| ldct_1e5       | Avg PSNR: 42.32	Avg SSIM: 0.9456 | Avg PSNR: 42.11	Avg SSIM: 0.9441 |
+| ldct_2e5       | Avg PSNR: 42.87	Avg SSIM: 0.9477 | Avg PSNR: 42.69	Avg SSIM: 0.9466 |
+
 
 ##### DnCnn vs UNet15 training time
 
