@@ -1,9 +1,16 @@
 
-
+####Overview
 There are two ways of reducing the radiation dose to the patient while taking CT scans: (i) acquiring data with a lower beam intensity, and (ii) reducing the number of views (sparse-view CT). Both methods decrease image quality, but in different ways. The low dose image looks like a noisy version of a normal image, while the sparse-view CT has streaking artifacts. Our interest is to improve the quality of low dose and sparse-view CT images by using deep neural networks. The approach is based on the well-known U-Net model [1] implemented using the Keras functional API with the TensorFlow backend. We compared the results with the Denoising CNN model that has previously been described [2].
 
+Introduction
 
-####UNet15
+Due to concerns with radiation exposure while taking CT scans, researchers are trying to find ways to reduce the dose of radiation with minimum impact on image quality. We investigated denoising for 3 different types of low dose images and 3 different types of sparse-view images.
+
+We took low dose and sparse-view images and reconstructed them using a U-Net-based denoising model. We compared this with our previous denoising model which was CNN-based. 
+
+The CT-images were obtained from the Cancer Imaging Archive’s QIN LUNG CT dataset. Altogether we had 3954 slices from a total of 47 patient studies. For each image type we used 3600 images to train and 354 images to test. All images are of size 512x512.
+
+
 
 This version uses new unet model (keras implementation with batch normalization) and does image augmentation without cropping.  After reading a post from Andrej Karpathy about big mistakes people do in ML I decided to improve on unet14 by adding   bias=False while training. One of the mistakes he is writing is "5) you didn't use bias=False for your Linear/Conv2d layer when using BatchNorm". 
 
