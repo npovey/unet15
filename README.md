@@ -12,7 +12,9 @@ The CT-images were obtained from the Cancer Imaging Archive’s QIN LUNG CT data
 
 **U-Net Model vs. Denoising CNN Model**
 
+
 **U-Net model [1]**
+
 
 ![unet](/formulas/unet.png)
 
@@ -39,6 +41,7 @@ Denoising CNN model trains on cropped images of size 32x32.
 The training process took approximately 14 hours.
 
 **Results**
+
 The average PSNR and SSIM values over 354 test images are displayed in the table below. 
 
 | Low Dose Image | UNet                              | DnCNN                             |
