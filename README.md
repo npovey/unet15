@@ -12,6 +12,7 @@ We took low dose and sparse-view images and reconstructed them using a U-Net-bas
 The CT-images were obtained from the Cancer Imaging Archive’s QIN LUNG CT dataset. Altogether we had 3954 slices from a total of 47 patient studies. For each image type we used 3600 images to train and 354 images to test. All images are of size 512x512.
 
 Results
+The average PSNR and SSIM values over 354 test images are displayed in the table below. 
 
 | Low Dose Image | UNet                              | DnCNN                             |
 | -------------- | ----------------------------------| ----------------------------------|
@@ -22,7 +23,6 @@ Results
 | ldct_1e5       | Avg PSNR: 42.11	Avg SSIM: 0.9441 | Avg PSNR: 42.32	Avg SSIM: 0.9456 |
 | ldct_2e5       | Avg PSNR: 42.69	Avg SSIM: 0.9466 | Avg PSNR: 42.87	Avg SSIM: 0.9477 |
 
-The average PSNR and SSIM values over 354 test images are displayed in the table below. 
 
 Conclusion
 
