@@ -1,9 +1,8 @@
-
-Overview
+**Overview**
 
 There are two ways of reducing the radiation dose to the patient while taking CT scans: (i) acquiring data with a lower beam intensity, and (ii) reducing the number of views (sparse-view CT). Both methods decrease image quality, but in different ways. The low dose image looks like a noisy version of a normal image, while the sparse-view CT has streaking artifacts. Our interest is to improve the quality of low dose and sparse-view CT images by using deep neural networks. The approach is based on the well-known U-Net model [1] implemented using the Keras functional API with the TensorFlow backend. We compared the results with the Denoising CNN model that has previously been described [2].
 
-Introduction
+**Introduction**
 
 Due to concerns with radiation exposure while taking CT scans, researchers are trying to find ways to reduce the dose of radiation with minimum impact on image quality. We investigated denoising for 3 different types of low dose images and 3 different types of sparse-view images.
 
@@ -11,7 +10,23 @@ We took low dose and sparse-view images and reconstructed them using a U-Net-bas
 
 The CT-images were obtained from the Cancer Imaging Archive’s QIN LUNG CT dataset. Altogether we had 3954 slices from a total of 47 patient studies. For each image type we used 3600 images to train and 354 images to test. All images are of size 512x512.
 
-Results
+**U-Net Model vs. Denoising CNN Model**
+
+**U-Net model [1]**
+
+![unet](/formulas/unet.png)
+
+
+
+
+
+
+
+**Denoising CNN model [3]**
+
+![denoisingCNN](/formulas/denoisingCNN.png)
+
+**Results**
 The average PSNR and SSIM values over 354 test images are displayed in the table below. 
 
 | Low Dose Image | UNet                              | DnCNN                             |
@@ -31,11 +46,11 @@ The average PSNR and SSIM values over 354 test images are displayed in the table
 
 
 
-Conclusion
+**Conclusion**
 
 The U-Net model was comparable to the Denoising CNN model under most conditions, but U-Net provides better results for the sparse-view at the lowest sampling rate, where the number of views is reduced to 60 and the artifacts are most severe. The improvement with respect to both PSNR and SSIM was roughly 3%. The U-Net was also slightly faster to train.
 
-References and Acknowledgments
+**References and Acknowledgments**
 
 [1] O. Ronneberger, P. Fischer, and T. Brox. U-net: Convolutional networks for biomedical image segmentation. MICCAI. 2015
 [2] S. Coulter M. Simms T. Humphries, D. Si and R. Xing. Comparison of deep learning approaches to low dose CT using low intensity and sparse view data. SPIE Medical Imaging. 2019
