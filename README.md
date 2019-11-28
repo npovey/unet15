@@ -23,6 +23,13 @@ The average PSNR and SSIM values over 354 test images are displayed in the table
 | ldct_1e5       | Avg PSNR: 42.11	Avg SSIM: 0.9441 | Avg PSNR: 42.32	Avg SSIM: 0.9456 |
 | ldct_2e5       | Avg PSNR: 42.69	Avg SSIM: 0.9466 | Avg PSNR: 42.87	Avg SSIM: 0.9477 |
 
+![psnr](/Users/np/Desktop/unet15/formulas/psnr.png)
+
+
+
+![ssim](/Users/np/Desktop/unet15/formulas/ssim.png)
+
+
 
 Conclusion
 
