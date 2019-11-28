@@ -1,5 +1,6 @@
 
 
+There are two ways of reducing the radiation dose to the patient while taking CT scans: (i) acquiring data with a lower beam intensity, and (ii) reducing the number of views (sparse-view CT). Both methods decrease image quality, but in different ways. The low dose image looks like a noisy version of a normal image, while the sparse-view CT has streaking artifacts. Our interest is to improve the quality of low dose and sparse-view CT images by using deep neural networks. The approach is based on the well-known U-Net model [1] implemented using the Keras functional API with the TensorFlow backend. We compared the results with the Denoising CNN model that has previously been described [2].
 
 
 ####UNet15
