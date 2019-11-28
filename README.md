@@ -68,8 +68,11 @@ The U-Net model was comparable to the Denoising CNN model under most conditions,
 **References and Acknowledgments**
 
 [1] O. Ronneberger, P. Fischer, and T. Brox. U-net: Convolutional networks for biomedical image segmentation. MICCAI. 2015
+
 [2] S. Coulter M. Simms T. Humphries, D. Si and R. Xing. Comparison of deep learning approaches to low dose CT using low intensity and sparse view data. SPIE Medical Imaging. 2019
+
 [3] K. Zhang, W. Zuo, Y. Chen, D. Meng, and L. Zhang. Beyond a gaussian denoiser: Residual learning of deep CNN for image denoising. IEEE Trans. Imag. Proc. 2016.
+
 [4] Zhou Wang, A.C. Bovik, H.R. Sheikh, and E.P.  Simoncelli. "Image quality assessment: from error visibility to structural similarity". IEEE Trans. Imag. Proc. 2004
 
 ---------------------------------------------------------------------------------------------------------------------------
