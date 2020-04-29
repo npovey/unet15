@@ -1,0 +1,3723 @@
+Running on the GPU
+X_vald.shape torch.Size([30, 1, 512, 512])
+y_vald.shape torch.Size([30, 1, 512, 512])
+iter,	loss
+
+Epoch 0
+set[0:1200]
+batch: 0,	0.1023662
+batch: 100,	0.0017447
+image augmentation 1
+batch: 0,	0.0012564
+batch: 100,	0.0009315
+image augmentation 2
+batch: 0,	0.0008607
+batch: 100,	0.0006902
+image augmentation 3
+batch: 0,	0.0007530
+batch: 100,	0.0006661
+image augmentation 4
+batch: 0,	0.0006826
+batch: 100,	0.0005633
+image augmentation 5
+batch: 0,	0.0006545
+batch: 100,	0.0005993
+image augmentation 6
+batch: 0,	0.0005968
+batch: 100,	0.0005605
+image augmentation 7
+batch: 0,	0.0006222
+batch: 100,	0.0005264
+set[1200:2400]
+batch: 0,	0.0005624
+batch: 100,	0.0004825
+image augmentation 1
+batch: 0,	0.0004310
+batch: 100,	0.0003664
+image augmentation 2
+batch: 0,	0.0003582
+batch: 100,	0.0003721
+image augmentation 3
+batch: 0,	0.0003305
+batch: 100,	0.0002961
+image augmentation 4
+batch: 0,	0.0004723
+batch: 100,	0.0003451
+image augmentation 5
+batch: 0,	0.0003047
+batch: 100,	0.0002800
+image augmentation 6
+batch: 0,	0.0002611
+batch: 100,	0.0002886
+image augmentation 7
+batch: 0,	0.0002662
+batch: 100,	0.0002441
+set[2400:3600]
+batch: 0,	0.0003734
+image augmentation 1
+batch: 0,	0.0002442
+image augmentation 2
+batch: 0,	0.0002297
+image augmentation 3
+batch: 0,	0.0002557
+image augmentation 4
+batch: 0,	0.0003492
+image augmentation 5
+batch: 0,	0.0002280
+image augmentation 6
+batch: 0,	0.0002475
+image augmentation 7
+batch: 0,	0.0002115
+epoch: 0,	Avg PSNR 29.0364421
+
+Epoch 1
+set[0:1200]
+batch: 0,	0.0004142
+batch: 100,	0.0002298
+image augmentation 1
+batch: 0,	0.0002148
+batch: 100,	0.0002598
+image augmentation 2
+batch: 0,	0.0002515
+batch: 100,	0.0001812
+image augmentation 3
+batch: 0,	0.0001815
+batch: 100,	0.0002259
+image augmentation 4
+batch: 0,	0.0003851
+batch: 100,	0.0001911
+image augmentation 5
+batch: 0,	0.0001849
+batch: 100,	0.0002271
+image augmentation 6
+batch: 0,	0.0002204
+batch: 100,	0.0001618
+image augmentation 7
+batch: 0,	0.0001580
+batch: 100,	0.0001958
+set[1200:2400]
+batch: 0,	0.0002753
+batch: 100,	0.0001873
+image augmentation 1
+batch: 0,	0.0001831
+batch: 100,	0.0001559
+image augmentation 2
+batch: 0,	0.0001394
+batch: 100,	0.0001570
+image augmentation 3
+batch: 0,	0.0001593
+batch: 100,	0.0001381
+image augmentation 4
+batch: 0,	0.0002565
+batch: 100,	0.0001771
+image augmentation 5
+batch: 0,	0.0001696
+batch: 100,	0.0001471
+image augmentation 6
+batch: 0,	0.0001312
+batch: 100,	0.0001524
+image augmentation 7
+batch: 0,	0.0001472
+batch: 100,	0.0001337
+set[2400:3600]
+batch: 0,	0.0002729
+image augmentation 1
+batch: 0,	0.0001752
+image augmentation 2
+batch: 0,	0.0001570
+image augmentation 3
+batch: 0,	0.0001554
+image augmentation 4
+batch: 0,	0.0002483
+image augmentation 5
+batch: 0,	0.0001619
+image augmentation 6
+batch: 0,	0.0001568
+image augmentation 7
+batch: 0,	0.0001415
+epoch: 1,	Avg PSNR 30.3166060
+
+Epoch 2
+set[0:1200]
+batch: 0,	0.0002504
+batch: 100,	0.0001721
+image augmentation 1
+batch: 0,	0.0001520
+batch: 100,	0.0001383
+image augmentation 2
+batch: 0,	0.0001559
+batch: 100,	0.0001548
+image augmentation 3
+batch: 0,	0.0001374
+batch: 100,	0.0001298
+image augmentation 4
+batch: 0,	0.0002387
+batch: 100,	0.0001628
+image augmentation 5
+batch: 0,	0.0001446
+batch: 100,	0.0001318
+image augmentation 6
+batch: 0,	0.0001446
+batch: 100,	0.0001440
+image augmentation 7
+batch: 0,	0.0001294
+batch: 100,	0.0001238
+set[1200:2400]
+batch: 0,	0.0002492
+batch: 100,	0.0001457
+image augmentation 1
+batch: 0,	0.0001333
+batch: 100,	0.0001256
+image augmentation 2
+batch: 0,	0.0001390
+batch: 100,	0.0001252
+image augmentation 3
+batch: 0,	0.0001177
+batch: 100,	0.0001188
+image augmentation 4
+batch: 0,	0.0002338
+batch: 100,	0.0001382
+image augmentation 5
+batch: 0,	0.0001307
+batch: 100,	0.0001181
+image augmentation 6
+batch: 0,	0.0001318
+batch: 100,	0.0001214
+image augmentation 7
+batch: 0,	0.0001161
+batch: 100,	0.0001081
+set[2400:3600]
+batch: 0,	0.0002086
+image augmentation 1
+batch: 0,	0.0001453
+image augmentation 2
+batch: 0,	0.0001268
+image augmentation 3
+batch: 0,	0.0001364
+image augmentation 4
+batch: 0,	0.0001908
+image augmentation 5
+batch: 0,	0.0001396
+image augmentation 6
+batch: 0,	0.0001399
+image augmentation 7
+batch: 0,	0.0001232
+epoch: 2,	Avg PSNR 30.5076738
+
+Epoch 3
+set[0:1200]
+batch: 0,	0.0001804
+batch: 100,	0.0001588
+image augmentation 1
+batch: 0,	0.0001512
+batch: 100,	0.0001358
+image augmentation 2
+batch: 0,	0.0001026
+batch: 100,	0.0001364
+image augmentation 3
+batch: 0,	0.0001326
+batch: 100,	0.0001200
+image augmentation 4
+batch: 0,	0.0001654
+batch: 100,	0.0001528
+image augmentation 5
+batch: 0,	0.0001449
+batch: 100,	0.0001280
+image augmentation 6
+batch: 0,	0.0000995
+batch: 100,	0.0001326
+image augmentation 7
+batch: 0,	0.0001276
+batch: 100,	0.0001146
+set[1200:2400]
+batch: 0,	0.0002145
+batch: 100,	0.0001421
+image augmentation 1
+batch: 0,	0.0001121
+batch: 100,	0.0001056
+image augmentation 2
+batch: 0,	0.0001262
+batch: 100,	0.0001216
+image augmentation 3
+batch: 0,	0.0001011
+batch: 100,	0.0000973
+image augmentation 4
+batch: 0,	0.0002151
+batch: 100,	0.0001358
+image augmentation 5
+batch: 0,	0.0001099
+batch: 100,	0.0001048
+image augmentation 6
+batch: 0,	0.0001246
+batch: 100,	0.0001186
+image augmentation 7
+batch: 0,	0.0000987
+batch: 100,	0.0000943
+set[2400:3600]
+batch: 0,	0.0001564
+image augmentation 1
+batch: 0,	0.0001212
+image augmentation 2
+batch: 0,	0.0001092
+image augmentation 3
+batch: 0,	0.0000946
+image augmentation 4
+batch: 0,	0.0001432
+image augmentation 5
+batch: 0,	0.0001176
+image augmentation 6
+batch: 0,	0.0000958
+image augmentation 7
+batch: 0,	0.0001050
+epoch: 3,	Avg PSNR 31.2185899
+
+Epoch 4
+set[0:1200]
+batch: 0,	0.0001729
+batch: 100,	0.0001207
+image augmentation 1
+batch: 0,	0.0001559
+batch: 100,	0.0001021
+image augmentation 2
+batch: 0,	0.0001060
+batch: 100,	0.0001032
+image augmentation 3
+batch: 0,	0.0001311
+batch: 100,	0.0000955
+image augmentation 4
+batch: 0,	0.0001676
+batch: 100,	0.0001143
+image augmentation 5
+batch: 0,	0.0001485
+batch: 100,	0.0000989
+image augmentation 6
+batch: 0,	0.0001023
+batch: 100,	0.0001025
+image augmentation 7
+batch: 0,	0.0001260
+batch: 100,	0.0000924
+set[1200:2400]
+batch: 0,	0.0001624
+batch: 100,	0.0001120
+image augmentation 1
+batch: 0,	0.0000844
+batch: 100,	0.0000947
+image augmentation 2
+batch: 0,	0.0000887
+batch: 100,	0.0001006
+image augmentation 3
+batch: 0,	0.0000759
+batch: 100,	0.0000893
+image augmentation 4
+batch: 0,	0.0001614
+batch: 100,	0.0001111
+image augmentation 5
+batch: 0,	0.0000832
+batch: 100,	0.0000926
+image augmentation 6
+batch: 0,	0.0000874
+batch: 100,	0.0000971
+image augmentation 7
+batch: 0,	0.0000756
+batch: 100,	0.0000884
+set[2400:3600]
+batch: 0,	0.0001803
+image augmentation 1
+batch: 0,	0.0001156
+image augmentation 2
+batch: 0,	0.0001050
+image augmentation 3
+batch: 0,	0.0001050
+image augmentation 4
+batch: 0,	0.0001676
+image augmentation 5
+batch: 0,	0.0001150
+image augmentation 6
+batch: 0,	0.0001073
+image augmentation 7
+batch: 0,	0.0000996
+epoch: 4,	Avg PSNR 30.5381919
+
+Epoch 5
+set[0:1200]
+batch: 0,	0.0001574
+batch: 100,	0.0000978
+image augmentation 1
+batch: 0,	0.0001175
+batch: 100,	0.0001023
+image augmentation 2
+batch: 0,	0.0000936
+batch: 100,	0.0000858
+image augmentation 3
+batch: 0,	0.0001010
+batch: 100,	0.0000946
+image augmentation 4
+batch: 0,	0.0001481
+batch: 100,	0.0000937
+image augmentation 5
+batch: 0,	0.0001121
+batch: 100,	0.0000975
+image augmentation 6
+batch: 0,	0.0000898
+batch: 100,	0.0000842
+image augmentation 7
+batch: 0,	0.0000957
+batch: 100,	0.0000939
+set[1200:2400]
+batch: 0,	0.0001464
+batch: 100,	0.0001080
+image augmentation 1
+batch: 0,	0.0000883
+batch: 100,	0.0000948
+image augmentation 2
+batch: 0,	0.0000821
+batch: 100,	0.0000979
+image augmentation 3
+batch: 0,	0.0000776
+batch: 100,	0.0000897
+image augmentation 4
+batch: 0,	0.0001486
+batch: 100,	0.0001053
+image augmentation 5
+batch: 0,	0.0000878
+batch: 100,	0.0000906
+image augmentation 6
+batch: 0,	0.0000810
+batch: 100,	0.0000941
+image augmentation 7
+batch: 0,	0.0000768
+batch: 100,	0.0000859
+set[2400:3600]
+batch: 0,	0.0001746
+image augmentation 1
+batch: 0,	0.0001068
+image augmentation 2
+batch: 0,	0.0000914
+image augmentation 3
+batch: 0,	0.0001078
+image augmentation 4
+batch: 0,	0.0001665
+image augmentation 5
+batch: 0,	0.0001047
+image augmentation 6
+batch: 0,	0.0001101
+image augmentation 7
+batch: 0,	0.0000903
+epoch: 5,	Avg PSNR 31.2789098
+
+Epoch 6
+set[0:1200]
+batch: 0,	0.0001439
+batch: 100,	0.0001157
+image augmentation 1
+batch: 0,	0.0000925
+batch: 100,	0.0000941
+image augmentation 2
+batch: 0,	0.0000882
+batch: 100,	0.0000995
+image augmentation 3
+batch: 0,	0.0000862
+batch: 100,	0.0000862
+image augmentation 4
+batch: 0,	0.0001361
+batch: 100,	0.0001113
+image augmentation 5
+batch: 0,	0.0000893
+batch: 100,	0.0000895
+image augmentation 6
+batch: 0,	0.0000865
+batch: 100,	0.0000980
+image augmentation 7
+batch: 0,	0.0000825
+batch: 100,	0.0000904
+set[1200:2400]
+batch: 0,	0.0001140
+batch: 100,	0.0000967
+image augmentation 1
+batch: 0,	0.0000910
+batch: 100,	0.0000775
+image augmentation 2
+batch: 0,	0.0000670
+batch: 100,	0.0000840
+image augmentation 3
+batch: 0,	0.0000799
+batch: 100,	0.0000751
+image augmentation 4
+batch: 0,	0.0001147
+batch: 100,	0.0000951
+image augmentation 5
+batch: 0,	0.0000905
+batch: 100,	0.0000766
+image augmentation 6
+batch: 0,	0.0000660
+batch: 100,	0.0000838
+image augmentation 7
+batch: 0,	0.0000783
+batch: 100,	0.0000730
+set[2400:3600]
+batch: 0,	0.0001756
+image augmentation 1
+batch: 0,	0.0000940
+image augmentation 2
+batch: 0,	0.0000808
+image augmentation 3
+batch: 0,	0.0001085
+image augmentation 4
+batch: 0,	0.0001626
+image augmentation 5
+batch: 0,	0.0000932
+image augmentation 6
+batch: 0,	0.0001118
+image augmentation 7
+batch: 0,	0.0000789
+epoch: 6,	Avg PSNR 31.8107291
+
+Epoch 7
+set[0:1200]
+batch: 0,	0.0001511
+batch: 100,	0.0001005
+image augmentation 1
+batch: 0,	0.0000924
+batch: 100,	0.0000951
+image augmentation 2
+batch: 0,	0.0000903
+batch: 100,	0.0000903
+image augmentation 3
+batch: 0,	0.0000822
+batch: 100,	0.0000903
+image augmentation 4
+batch: 0,	0.0001462
+batch: 100,	0.0000969
+image augmentation 5
+batch: 0,	0.0000891
+batch: 100,	0.0000921
+image augmentation 6
+batch: 0,	0.0000865
+batch: 100,	0.0000901
+image augmentation 7
+batch: 0,	0.0000784
+batch: 100,	0.0000869
+set[1200:2400]
+batch: 0,	0.0001331
+batch: 100,	0.0000893
+image augmentation 1
+batch: 0,	0.0000880
+batch: 100,	0.0000685
+image augmentation 2
+batch: 0,	0.0000764
+batch: 100,	0.0000777
+image augmentation 3
+batch: 0,	0.0000788
+batch: 100,	0.0000675
+image augmentation 4
+batch: 0,	0.0001311
+batch: 100,	0.0000880
+image augmentation 5
+batch: 0,	0.0000874
+batch: 100,	0.0000670
+image augmentation 6
+batch: 0,	0.0000760
+batch: 100,	0.0000797
+image augmentation 7
+batch: 0,	0.0000783
+batch: 100,	0.0000636
+set[2400:3600]
+batch: 0,	0.0001639
+image augmentation 1
+batch: 0,	0.0001178
+image augmentation 2
+batch: 0,	0.0001062
+image augmentation 3
+batch: 0,	0.0001087
+image augmentation 4
+batch: 0,	0.0001541
+image augmentation 5
+batch: 0,	0.0001179
+image augmentation 6
+batch: 0,	0.0001091
+image augmentation 7
+batch: 0,	0.0001043
+epoch: 7,	Avg PSNR 31.8094662
+
+Epoch 8
+set[0:1200]
+batch: 0,	0.0001367
+batch: 100,	0.0000989
+image augmentation 1
+batch: 0,	0.0000715
+batch: 100,	0.0000959
+image augmentation 2
+batch: 0,	0.0000847
+batch: 100,	0.0000870
+image augmentation 3
+batch: 0,	0.0000641
+batch: 100,	0.0000938
+image augmentation 4
+batch: 0,	0.0001350
+batch: 100,	0.0000969
+image augmentation 5
+batch: 0,	0.0000697
+batch: 100,	0.0000935
+image augmentation 6
+batch: 0,	0.0000869
+batch: 100,	0.0000869
+image augmentation 7
+batch: 0,	0.0000639
+batch: 100,	0.0000910
+set[1200:2400]
+batch: 0,	0.0001273
+batch: 100,	0.0000971
+image augmentation 1
+batch: 0,	0.0000810
+batch: 100,	0.0000736
+image augmentation 2
+batch: 0,	0.0000779
+batch: 100,	0.0000874
+image augmentation 3
+batch: 0,	0.0000699
+batch: 100,	0.0000699
+image augmentation 4
+batch: 0,	0.0001263
+batch: 100,	0.0000966
+image augmentation 5
+batch: 0,	0.0000807
+batch: 100,	0.0000721
+image augmentation 6
+batch: 0,	0.0000756
+batch: 100,	0.0000866
+image augmentation 7
+batch: 0,	0.0000704
+batch: 100,	0.0000697
+set[2400:3600]
+batch: 0,	0.0001336
+image augmentation 1
+batch: 0,	0.0001089
+image augmentation 2
+batch: 0,	0.0000987
+image augmentation 3
+batch: 0,	0.0000760
+image augmentation 4
+batch: 0,	0.0001186
+image augmentation 5
+batch: 0,	0.0001078
+image augmentation 6
+batch: 0,	0.0000783
+image augmentation 7
+batch: 0,	0.0000955
+epoch: 8,	Avg PSNR 31.8535402
+
+Epoch 9
+set[0:1200]
+batch: 0,	0.0001327
+batch: 100,	0.0000939
+image augmentation 1
+batch: 0,	0.0000776
+batch: 100,	0.0001011
+image augmentation 2
+batch: 0,	0.0000784
+batch: 100,	0.0000869
+image augmentation 3
+batch: 0,	0.0000720
+batch: 100,	0.0000968
+image augmentation 4
+batch: 0,	0.0001267
+batch: 100,	0.0000922
+image augmentation 5
+batch: 0,	0.0000757
+batch: 100,	0.0000971
+image augmentation 6
+batch: 0,	0.0000754
+batch: 100,	0.0000857
+image augmentation 7
+batch: 0,	0.0000691
+batch: 100,	0.0000960
+set[1200:2400]
+batch: 0,	0.0001428
+batch: 100,	0.0000752
+image augmentation 1
+batch: 0,	0.0000825
+batch: 100,	0.0000686
+image augmentation 2
+batch: 0,	0.0000802
+batch: 100,	0.0000680
+image augmentation 3
+batch: 0,	0.0000735
+batch: 100,	0.0000704
+image augmentation 4
+batch: 0,	0.0001424
+batch: 100,	0.0000746
+image augmentation 5
+batch: 0,	0.0000814
+batch: 100,	0.0000668
+image augmentation 6
+batch: 0,	0.0000783
+batch: 100,	0.0000709
+image augmentation 7
+batch: 0,	0.0000726
+batch: 100,	0.0000652
+set[2400:3600]
+batch: 0,	0.0001372
+image augmentation 1
+batch: 0,	0.0001181
+image augmentation 2
+batch: 0,	0.0001020
+image augmentation 3
+batch: 0,	0.0000871
+image augmentation 4
+batch: 0,	0.0001247
+image augmentation 5
+batch: 0,	0.0001174
+image augmentation 6
+batch: 0,	0.0000885
+image augmentation 7
+batch: 0,	0.0001020
+epoch: 9,	Avg PSNR 32.1469461
+
+Epoch 10
+set[0:1200]
+batch: 0,	0.0001371
+batch: 100,	0.0000855
+image augmentation 1
+batch: 0,	0.0000796
+batch: 100,	0.0001037
+image augmentation 2
+batch: 0,	0.0000825
+batch: 100,	0.0000758
+image augmentation 3
+batch: 0,	0.0000723
+batch: 100,	0.0001016
+image augmentation 4
+batch: 0,	0.0001369
+batch: 100,	0.0000839
+image augmentation 5
+batch: 0,	0.0000781
+batch: 100,	0.0001018
+image augmentation 6
+batch: 0,	0.0000814
+batch: 100,	0.0000751
+image augmentation 7
+batch: 0,	0.0000717
+batch: 100,	0.0000981
+set[1200:2400]
+batch: 0,	0.0001218
+batch: 100,	0.0000813
+image augmentation 1
+batch: 0,	0.0000663
+batch: 100,	0.0000713
+image augmentation 2
+batch: 0,	0.0000660
+batch: 100,	0.0000750
+image augmentation 3
+batch: 0,	0.0000607
+batch: 100,	0.0000694
+image augmentation 4
+batch: 0,	0.0001235
+batch: 100,	0.0000818
+image augmentation 5
+batch: 0,	0.0000659
+batch: 100,	0.0000725
+image augmentation 6
+batch: 0,	0.0000658
+batch: 100,	0.0000735
+image augmentation 7
+batch: 0,	0.0000591
+batch: 100,	0.0000693
+set[2400:3600]
+batch: 0,	0.0001346
+image augmentation 1
+batch: 0,	0.0000970
+image augmentation 2
+batch: 0,	0.0000845
+image augmentation 3
+batch: 0,	0.0000863
+image augmentation 4
+batch: 0,	0.0001356
+image augmentation 5
+batch: 0,	0.0000993
+image augmentation 6
+batch: 0,	0.0000901
+image augmentation 7
+batch: 0,	0.0000832
+epoch: 10,	Avg PSNR 32.2688661
+
+Epoch 11
+set[0:1200]
+batch: 0,	0.0001313
+batch: 100,	0.0000949
+image augmentation 1
+batch: 0,	0.0000803
+batch: 100,	0.0000734
+image augmentation 2
+batch: 0,	0.0000767
+batch: 100,	0.0000836
+image augmentation 3
+batch: 0,	0.0000741
+batch: 100,	0.0000702
+image augmentation 4
+batch: 0,	0.0001288
+batch: 100,	0.0000923
+image augmentation 5
+batch: 0,	0.0000779
+batch: 100,	0.0000704
+image augmentation 6
+batch: 0,	0.0000735
+batch: 100,	0.0000805
+image augmentation 7
+batch: 0,	0.0000712
+batch: 100,	0.0000677
+set[1200:2400]
+batch: 0,	0.0001096
+batch: 100,	0.0000777
+image augmentation 1
+batch: 0,	0.0000762
+batch: 100,	0.0000653
+image augmentation 2
+batch: 0,	0.0000605
+batch: 100,	0.0000692
+image augmentation 3
+batch: 0,	0.0000713
+batch: 100,	0.0000642
+image augmentation 4
+batch: 0,	0.0001130
+batch: 100,	0.0000783
+image augmentation 5
+batch: 0,	0.0000757
+batch: 100,	0.0000654
+image augmentation 6
+batch: 0,	0.0000597
+batch: 100,	0.0000716
+image augmentation 7
+batch: 0,	0.0000703
+batch: 100,	0.0000703
+set[2400:3600]
+batch: 0,	0.0001283
+image augmentation 1
+batch: 0,	0.0001031
+image augmentation 2
+batch: 0,	0.0000899
+image augmentation 3
+batch: 0,	0.0000882
+image augmentation 4
+batch: 0,	0.0001228
+image augmentation 5
+batch: 0,	0.0001017
+image augmentation 6
+batch: 0,	0.0000910
+image augmentation 7
+batch: 0,	0.0000867
+epoch: 11,	Avg PSNR 32.0953248
+
+Epoch 12
+set[0:1200]
+batch: 0,	0.0001228
+batch: 100,	0.0000775
+image augmentation 1
+batch: 0,	0.0000724
+batch: 100,	0.0000795
+image augmentation 2
+batch: 0,	0.0000676
+batch: 100,	0.0000720
+image augmentation 3
+batch: 0,	0.0000664
+batch: 100,	0.0000794
+image augmentation 4
+batch: 0,	0.0001122
+batch: 100,	0.0000760
+image augmentation 5
+batch: 0,	0.0000698
+batch: 100,	0.0000765
+image augmentation 6
+batch: 0,	0.0000664
+batch: 100,	0.0000687
+image augmentation 7
+batch: 0,	0.0000630
+batch: 100,	0.0000771
+set[1200:2400]
+batch: 0,	0.0001011
+batch: 100,	0.0000664
+image augmentation 1
+batch: 0,	0.0000769
+batch: 100,	0.0000633
+image augmentation 2
+batch: 0,	0.0000587
+batch: 100,	0.0000630
+image augmentation 3
+batch: 0,	0.0000696
+batch: 100,	0.0000613
+image augmentation 4
+batch: 0,	0.0001034
+batch: 100,	0.0000668
+image augmentation 5
+batch: 0,	0.0000764
+batch: 100,	0.0000630
+image augmentation 6
+batch: 0,	0.0000582
+batch: 100,	0.0000609
+image augmentation 7
+batch: 0,	0.0000683
+batch: 100,	0.0000607
+set[2400:3600]
+batch: 0,	0.0001569
+image augmentation 1
+batch: 0,	0.0001066
+image augmentation 2
+batch: 0,	0.0000902
+image augmentation 3
+batch: 0,	0.0001101
+image augmentation 4
+batch: 0,	0.0001519
+image augmentation 5
+batch: 0,	0.0001067
+image augmentation 6
+batch: 0,	0.0001115
+image augmentation 7
+batch: 0,	0.0000925
+epoch: 12,	Avg PSNR 32.1622270
+
+Epoch 13
+set[0:1200]
+batch: 0,	0.0001355
+batch: 100,	0.0000738
+image augmentation 1
+batch: 0,	0.0000760
+batch: 100,	0.0000717
+image augmentation 2
+batch: 0,	0.0000790
+batch: 100,	0.0000693
+image augmentation 3
+batch: 0,	0.0000665
+batch: 100,	0.0000760
+image augmentation 4
+batch: 0,	0.0001263
+batch: 100,	0.0000714
+image augmentation 5
+batch: 0,	0.0000726
+batch: 100,	0.0000686
+image augmentation 6
+batch: 0,	0.0000754
+batch: 100,	0.0000674
+image augmentation 7
+batch: 0,	0.0000652
+batch: 100,	0.0000739
+set[1200:2400]
+batch: 0,	0.0001156
+batch: 100,	0.0000598
+image augmentation 1
+batch: 0,	0.0000691
+batch: 100,	0.0000638
+image augmentation 2
+batch: 0,	0.0000672
+batch: 100,	0.0000550
+image augmentation 3
+batch: 0,	0.0000646
+batch: 100,	0.0000632
+image augmentation 4
+batch: 0,	0.0001150
+batch: 100,	0.0000600
+image augmentation 5
+batch: 0,	0.0000688
+batch: 100,	0.0000632
+image augmentation 6
+batch: 0,	0.0000685
+batch: 100,	0.0000546
+image augmentation 7
+batch: 0,	0.0000634
+batch: 100,	0.0000621
+set[2400:3600]
+batch: 0,	0.0001363
+image augmentation 1
+batch: 0,	0.0001069
+image augmentation 2
+batch: 0,	0.0000920
+image augmentation 3
+batch: 0,	0.0000905
+image augmentation 4
+batch: 0,	0.0001371
+image augmentation 5
+batch: 0,	0.0001061
+image augmentation 6
+batch: 0,	0.0000936
+image augmentation 7
+batch: 0,	0.0000899
+epoch: 13,	Avg PSNR 32.2644463
+
+Epoch 14
+set[0:1200]
+batch: 0,	0.0001343
+batch: 100,	0.0000845
+image augmentation 1
+batch: 0,	0.0000823
+batch: 100,	0.0000640
+image augmentation 2
+batch: 0,	0.0000731
+batch: 100,	0.0000736
+image augmentation 3
+batch: 0,	0.0000758
+batch: 100,	0.0000630
+image augmentation 4
+batch: 0,	0.0001253
+batch: 100,	0.0000809
+image augmentation 5
+batch: 0,	0.0000805
+batch: 100,	0.0000614
+image augmentation 6
+batch: 0,	0.0000710
+batch: 100,	0.0000718
+image augmentation 7
+batch: 0,	0.0000753
+batch: 100,	0.0000603
+set[1200:2400]
+batch: 0,	0.0001226
+batch: 100,	0.0000609
+image augmentation 1
+batch: 0,	0.0000636
+batch: 100,	0.0000611
+image augmentation 2
+batch: 0,	0.0000665
+batch: 100,	0.0000543
+image augmentation 3
+batch: 0,	0.0000567
+batch: 100,	0.0000597
+image augmentation 4
+batch: 0,	0.0001201
+batch: 100,	0.0000602
+image augmentation 5
+batch: 0,	0.0000630
+batch: 100,	0.0000609
+image augmentation 6
+batch: 0,	0.0000666
+batch: 100,	0.0000534
+image augmentation 7
+batch: 0,	0.0000566
+batch: 100,	0.0000598
+set[2400:3600]
+batch: 0,	0.0001327
+image augmentation 1
+batch: 0,	0.0000886
+image augmentation 2
+batch: 0,	0.0000796
+image augmentation 3
+batch: 0,	0.0000875
+image augmentation 4
+batch: 0,	0.0001217
+image augmentation 5
+batch: 0,	0.0000887
+image augmentation 6
+batch: 0,	0.0000901
+image augmentation 7
+batch: 0,	0.0000778
+epoch: 14,	Avg PSNR 32.3023354
+
+Epoch 15
+set[0:1200]
+batch: 0,	0.0001192
+batch: 100,	0.0000800
+image augmentation 1
+batch: 0,	0.0000734
+batch: 100,	0.0000665
+image augmentation 2
+batch: 0,	0.0000690
+batch: 100,	0.0000735
+image augmentation 3
+batch: 0,	0.0000663
+batch: 100,	0.0000646
+image augmentation 4
+batch: 0,	0.0001137
+batch: 100,	0.0000777
+image augmentation 5
+batch: 0,	0.0000706
+batch: 100,	0.0000643
+image augmentation 6
+batch: 0,	0.0000663
+batch: 100,	0.0000727
+image augmentation 7
+batch: 0,	0.0000639
+batch: 100,	0.0000638
+set[1200:2400]
+batch: 0,	0.0001084
+batch: 100,	0.0000688
+image augmentation 1
+batch: 0,	0.0000709
+batch: 100,	0.0000598
+image augmentation 2
+batch: 0,	0.0000639
+batch: 100,	0.0000607
+image augmentation 3
+batch: 0,	0.0000651
+batch: 100,	0.0000601
+image augmentation 4
+batch: 0,	0.0001118
+batch: 100,	0.0000692
+image augmentation 5
+batch: 0,	0.0000700
+batch: 100,	0.0000594
+image augmentation 6
+batch: 0,	0.0000649
+batch: 100,	0.0000631
+image augmentation 7
+batch: 0,	0.0000642
+batch: 100,	0.0000589
+set[2400:3600]
+batch: 0,	0.0001252
+image augmentation 1
+batch: 0,	0.0000900
+image augmentation 2
+batch: 0,	0.0000808
+image augmentation 3
+batch: 0,	0.0000908
+image augmentation 4
+batch: 0,	0.0001221
+image augmentation 5
+batch: 0,	0.0000911
+image augmentation 6
+batch: 0,	0.0000909
+image augmentation 7
+batch: 0,	0.0000796
+epoch: 15,	Avg PSNR 32.2746754
+
+Epoch 16
+set[0:1200]
+batch: 0,	0.0001032
+batch: 100,	0.0000715
+image augmentation 1
+batch: 0,	0.0000799
+batch: 100,	0.0000607
+image augmentation 2
+batch: 0,	0.0000595
+batch: 100,	0.0000631
+image augmentation 3
+batch: 0,	0.0000714
+batch: 100,	0.0000585
+image augmentation 4
+batch: 0,	0.0000956
+batch: 100,	0.0000691
+image augmentation 5
+batch: 0,	0.0000772
+batch: 100,	0.0000600
+image augmentation 6
+batch: 0,	0.0000584
+batch: 100,	0.0000634
+image augmentation 7
+batch: 0,	0.0000686
+batch: 100,	0.0000594
+set[1200:2400]
+batch: 0,	0.0001118
+batch: 100,	0.0000657
+image augmentation 1
+batch: 0,	0.0000658
+batch: 100,	0.0000572
+image augmentation 2
+batch: 0,	0.0000621
+batch: 100,	0.0000595
+image augmentation 3
+batch: 0,	0.0000622
+batch: 100,	0.0000585
+image augmentation 4
+batch: 0,	0.0001065
+batch: 100,	0.0000649
+image augmentation 5
+batch: 0,	0.0000654
+batch: 100,	0.0000574
+image augmentation 6
+batch: 0,	0.0000618
+batch: 100,	0.0000593
+image augmentation 7
+batch: 0,	0.0000616
+batch: 100,	0.0000586
+set[2400:3600]
+batch: 0,	0.0001318
+image augmentation 1
+batch: 0,	0.0000996
+image augmentation 2
+batch: 0,	0.0000877
+image augmentation 3
+batch: 0,	0.0000886
+image augmentation 4
+batch: 0,	0.0001267
+image augmentation 5
+batch: 0,	0.0000994
+image augmentation 6
+batch: 0,	0.0000916
+image augmentation 7
+batch: 0,	0.0000868
+epoch: 16,	Avg PSNR 32.3623162
+
+Epoch 17
+set[0:1200]
+batch: 0,	0.0001270
+batch: 100,	0.0000682
+image augmentation 1
+batch: 0,	0.0000677
+batch: 100,	0.0000648
+image augmentation 2
+batch: 0,	0.0000693
+batch: 100,	0.0000609
+image augmentation 3
+batch: 0,	0.0000621
+batch: 100,	0.0000641
+image augmentation 4
+batch: 0,	0.0001194
+batch: 100,	0.0000665
+image augmentation 5
+batch: 0,	0.0000662
+batch: 100,	0.0000645
+image augmentation 6
+batch: 0,	0.0000670
+batch: 100,	0.0000604
+image augmentation 7
+batch: 0,	0.0000601
+batch: 100,	0.0000685
+set[1200:2400]
+batch: 0,	0.0000974
+batch: 100,	0.0000593
+image augmentation 1
+batch: 0,	0.0000569
+batch: 100,	0.0000672
+image augmentation 2
+batch: 0,	0.0000560
+batch: 100,	0.0000537
+image augmentation 3
+batch: 0,	0.0000530
+batch: 100,	0.0000673
+image augmentation 4
+batch: 0,	0.0001014
+batch: 100,	0.0000582
+image augmentation 5
+batch: 0,	0.0000565
+batch: 100,	0.0000685
+image augmentation 6
+batch: 0,	0.0000563
+batch: 100,	0.0000526
+image augmentation 7
+batch: 0,	0.0000505
+batch: 100,	0.0000684
+set[2400:3600]
+batch: 0,	0.0001285
+image augmentation 1
+batch: 0,	0.0000806
+image augmentation 2
+batch: 0,	0.0000684
+image augmentation 3
+batch: 0,	0.0000860
+image augmentation 4
+batch: 0,	0.0001258
+image augmentation 5
+batch: 0,	0.0000801
+image augmentation 6
+batch: 0,	0.0000891
+image augmentation 7
+batch: 0,	0.0000681
+epoch: 17,	Avg PSNR 32.3722196
+
+Epoch 18
+set[0:1200]
+batch: 0,	0.0001142
+batch: 100,	0.0000597
+image augmentation 1
+batch: 0,	0.0000705
+batch: 100,	0.0000614
+image augmentation 2
+batch: 0,	0.0000635
+batch: 100,	0.0000518
+image augmentation 3
+batch: 0,	0.0000649
+batch: 100,	0.0000589
+image augmentation 4
+batch: 0,	0.0001096
+batch: 100,	0.0000572
+image augmentation 5
+batch: 0,	0.0000690
+batch: 100,	0.0000605
+image augmentation 6
+batch: 0,	0.0000609
+batch: 100,	0.0000512
+image augmentation 7
+batch: 0,	0.0000643
+batch: 100,	0.0000584
+set[1200:2400]
+batch: 0,	0.0001093
+batch: 100,	0.0000579
+image augmentation 1
+batch: 0,	0.0000611
+batch: 100,	0.0000595
+image augmentation 2
+batch: 0,	0.0000621
+batch: 100,	0.0000518
+image augmentation 3
+batch: 0,	0.0000542
+batch: 100,	0.0000592
+image augmentation 4
+batch: 0,	0.0001071
+batch: 100,	0.0000571
+image augmentation 5
+batch: 0,	0.0000607
+batch: 100,	0.0000600
+image augmentation 6
+batch: 0,	0.0000622
+batch: 100,	0.0000506
+image augmentation 7
+batch: 0,	0.0000533
+batch: 100,	0.0000620
+set[2400:3600]
+batch: 0,	0.0001465
+image augmentation 1
+batch: 0,	0.0001111
+image augmentation 2
+batch: 0,	0.0001011
+image augmentation 3
+batch: 0,	0.0000957
+image augmentation 4
+batch: 0,	0.0001350
+image augmentation 5
+batch: 0,	0.0001138
+image augmentation 6
+batch: 0,	0.0000981
+image augmentation 7
+batch: 0,	0.0001018
+epoch: 18,	Avg PSNR 32.4838763
+
+Epoch 19
+set[0:1200]
+batch: 0,	0.0001313
+batch: 100,	0.0000622
+image augmentation 1
+batch: 0,	0.0000639
+batch: 100,	0.0000564
+image augmentation 2
+batch: 0,	0.0000731
+batch: 100,	0.0000564
+image augmentation 3
+batch: 0,	0.0000579
+batch: 100,	0.0000546
+image augmentation 4
+batch: 0,	0.0001217
+batch: 100,	0.0000599
+image augmentation 5
+batch: 0,	0.0000630
+batch: 100,	0.0000551
+image augmentation 6
+batch: 0,	0.0000710
+batch: 100,	0.0000549
+image augmentation 7
+batch: 0,	0.0000565
+batch: 100,	0.0000535
+set[1200:2400]
+batch: 0,	0.0000893
+batch: 100,	0.0000606
+image augmentation 1
+batch: 0,	0.0000611
+batch: 100,	0.0000518
+image augmentation 2
+batch: 0,	0.0000532
+batch: 100,	0.0000549
+image augmentation 3
+batch: 0,	0.0000559
+batch: 100,	0.0000560
+image augmentation 4
+batch: 0,	0.0000913
+batch: 100,	0.0000597
+image augmentation 5
+batch: 0,	0.0000609
+batch: 100,	0.0000517
+image augmentation 6
+batch: 0,	0.0000535
+batch: 100,	0.0000540
+image augmentation 7
+batch: 0,	0.0000560
+batch: 100,	0.0000536
+set[2400:3600]
+batch: 0,	0.0001383
+image augmentation 1
+batch: 0,	0.0001100
+image augmentation 2
+batch: 0,	0.0000942
+image augmentation 3
+batch: 0,	0.0000927
+image augmentation 4
+batch: 0,	0.0001302
+image augmentation 5
+batch: 0,	0.0001095
+image augmentation 6
+batch: 0,	0.0000954
+image augmentation 7
+batch: 0,	0.0000936
+epoch: 19,	Avg PSNR 32.4084935
+
+Epoch 20
+set[0:1200]
+batch: 0,	0.0001049
+batch: 100,	0.0000678
+image augmentation 1
+batch: 0,	0.0000780
+batch: 100,	0.0000656
+image augmentation 2
+batch: 0,	0.0000622
+batch: 100,	0.0000628
+image augmentation 3
+batch: 0,	0.0000711
+batch: 100,	0.0000635
+image augmentation 4
+batch: 0,	0.0000985
+batch: 100,	0.0000642
+image augmentation 5
+batch: 0,	0.0000763
+batch: 100,	0.0000634
+image augmentation 6
+batch: 0,	0.0000600
+batch: 100,	0.0000574
+image augmentation 7
+batch: 0,	0.0000688
+batch: 100,	0.0000626
+set[1200:2400]
+batch: 0,	0.0000875
+batch: 100,	0.0000568
+image augmentation 1
+batch: 0,	0.0000611
+batch: 100,	0.0000519
+image augmentation 2
+batch: 0,	0.0000492
+batch: 100,	0.0000515
+image augmentation 3
+batch: 0,	0.0000562
+batch: 100,	0.0000525
+image augmentation 4
+batch: 0,	0.0000941
+batch: 100,	0.0000561
+image augmentation 5
+batch: 0,	0.0000611
+batch: 100,	0.0000519
+image augmentation 6
+batch: 0,	0.0000501
+batch: 100,	0.0000506
+image augmentation 7
+batch: 0,	0.0000563
+batch: 100,	0.0000515
+set[2400:3600]
+batch: 0,	0.0001131
+image augmentation 1
+batch: 0,	0.0000879
+image augmentation 2
+batch: 0,	0.0000788
+image augmentation 3
+batch: 0,	0.0000785
+image augmentation 4
+batch: 0,	0.0001092
+image augmentation 5
+batch: 0,	0.0000896
+image augmentation 6
+batch: 0,	0.0000789
+image augmentation 7
+batch: 0,	0.0000785
+epoch: 20,	Avg PSNR 32.3615319
+
+Epoch 21
+set[0:1200]
+batch: 0,	0.0000930
+batch: 100,	0.0000700
+image augmentation 1
+batch: 0,	0.0000606
+batch: 100,	0.0000591
+image augmentation 2
+batch: 0,	0.0000526
+batch: 100,	0.0000636
+image augmentation 3
+batch: 0,	0.0000545
+batch: 100,	0.0000624
+image augmentation 4
+batch: 0,	0.0000880
+batch: 100,	0.0000679
+image augmentation 5
+batch: 0,	0.0000584
+batch: 100,	0.0000580
+image augmentation 6
+batch: 0,	0.0000509
+batch: 100,	0.0000620
+image augmentation 7
+batch: 0,	0.0000536
+batch: 100,	0.0000609
+set[1200:2400]
+batch: 0,	0.0000883
+batch: 100,	0.0000570
+image augmentation 1
+batch: 0,	0.0000621
+batch: 100,	0.0000568
+image augmentation 2
+batch: 0,	0.0000520
+batch: 100,	0.0000517
+image augmentation 3
+batch: 0,	0.0000573
+batch: 100,	0.0000564
+image augmentation 4
+batch: 0,	0.0000889
+batch: 100,	0.0000573
+image augmentation 5
+batch: 0,	0.0000620
+batch: 100,	0.0000564
+image augmentation 6
+batch: 0,	0.0000521
+batch: 100,	0.0000530
+image augmentation 7
+batch: 0,	0.0000560
+batch: 100,	0.0000568
+set[2400:3600]
+batch: 0,	0.0001073
+image augmentation 1
+batch: 0,	0.0000830
+image augmentation 2
+batch: 0,	0.0000713
+image augmentation 3
+batch: 0,	0.0000725
+image augmentation 4
+batch: 0,	0.0001059
+image augmentation 5
+batch: 0,	0.0000846
+image augmentation 6
+batch: 0,	0.0000746
+image augmentation 7
+batch: 0,	0.0000733
+epoch: 21,	Avg PSNR 32.4357053
+
+Epoch 22
+set[0:1200]
+batch: 0,	0.0001259
+batch: 100,	0.0000698
+image augmentation 1
+batch: 0,	0.0000640
+batch: 100,	0.0000533
+image augmentation 2
+batch: 0,	0.0000849
+batch: 100,	0.0000636
+image augmentation 3
+batch: 0,	0.0000586
+batch: 100,	0.0000522
+image augmentation 4
+batch: 0,	0.0001130
+batch: 100,	0.0000675
+image augmentation 5
+batch: 0,	0.0000618
+batch: 100,	0.0000518
+image augmentation 6
+batch: 0,	0.0000830
+batch: 100,	0.0000627
+image augmentation 7
+batch: 0,	0.0000569
+batch: 100,	0.0000503
+set[1200:2400]
+batch: 0,	0.0001016
+batch: 100,	0.0000494
+image augmentation 1
+batch: 0,	0.0000540
+batch: 100,	0.0000501
+image augmentation 2
+batch: 0,	0.0000595
+batch: 100,	0.0000462
+image augmentation 3
+batch: 0,	0.0000483
+batch: 100,	0.0000487
+image augmentation 4
+batch: 0,	0.0001057
+batch: 100,	0.0000494
+image augmentation 5
+batch: 0,	0.0000541
+batch: 100,	0.0000500
+image augmentation 6
+batch: 0,	0.0000601
+batch: 100,	0.0000463
+image augmentation 7
+batch: 0,	0.0000483
+batch: 100,	0.0000511
+set[2400:3600]
+batch: 0,	0.0001263
+image augmentation 1
+batch: 0,	0.0000924
+image augmentation 2
+batch: 0,	0.0000807
+image augmentation 3
+batch: 0,	0.0000808
+image augmentation 4
+batch: 0,	0.0001238
+image augmentation 5
+batch: 0,	0.0000930
+image augmentation 6
+batch: 0,	0.0000830
+image augmentation 7
+batch: 0,	0.0000801
+epoch: 22,	Avg PSNR 32.3592194
+
+Epoch 23
+set[0:1200]
+batch: 0,	0.0001025
+batch: 100,	0.0000755
+image augmentation 1
+batch: 0,	0.0000645
+batch: 100,	0.0000579
+image augmentation 2
+batch: 0,	0.0000577
+batch: 100,	0.0000692
+image augmentation 3
+batch: 0,	0.0000578
+batch: 100,	0.0000569
+image augmentation 4
+batch: 0,	0.0000967
+batch: 100,	0.0000732
+image augmentation 5
+batch: 0,	0.0000632
+batch: 100,	0.0000565
+image augmentation 6
+batch: 0,	0.0000560
+batch: 100,	0.0000683
+image augmentation 7
+batch: 0,	0.0000571
+batch: 100,	0.0000554
+set[1200:2400]
+batch: 0,	0.0000900
+batch: 100,	0.0000548
+image augmentation 1
+batch: 0,	0.0000561
+batch: 100,	0.0000551
+image augmentation 2
+batch: 0,	0.0000541
+batch: 100,	0.0000496
+image augmentation 3
+batch: 0,	0.0000511
+batch: 100,	0.0000572
+image augmentation 4
+batch: 0,	0.0000955
+batch: 100,	0.0000546
+image augmentation 5
+batch: 0,	0.0000547
+batch: 100,	0.0000558
+image augmentation 6
+batch: 0,	0.0000533
+batch: 100,	0.0000504
+image augmentation 7
+batch: 0,	0.0000496
+batch: 100,	0.0000570
+set[2400:3600]
+batch: 0,	0.0001169
+image augmentation 1
+batch: 0,	0.0000952
+image augmentation 2
+batch: 0,	0.0000826
+image augmentation 3
+batch: 0,	0.0000729
+image augmentation 4
+batch: 0,	0.0001040
+image augmentation 5
+batch: 0,	0.0000961
+image augmentation 6
+batch: 0,	0.0000749
+image augmentation 7
+batch: 0,	0.0000850
+epoch: 23,	Avg PSNR 32.3824552
+
+Epoch 24
+set[0:1200]
+batch: 0,	0.0001122
+batch: 100,	0.0000685
+image augmentation 1
+batch: 0,	0.0000505
+batch: 100,	0.0000662
+image augmentation 2
+batch: 0,	0.0000650
+batch: 100,	0.0000621
+image augmentation 3
+batch: 0,	0.0000457
+batch: 100,	0.0000675
+image augmentation 4
+batch: 0,	0.0001046
+batch: 100,	0.0000671
+image augmentation 5
+batch: 0,	0.0000491
+batch: 100,	0.0000661
+image augmentation 6
+batch: 0,	0.0000646
+batch: 100,	0.0000606
+image augmentation 7
+batch: 0,	0.0000441
+batch: 100,	0.0000711
+set[1200:2400]
+batch: 0,	0.0000923
+batch: 100,	0.0000566
+image augmentation 1
+batch: 0,	0.0000557
+batch: 100,	0.0000600
+image augmentation 2
+batch: 0,	0.0000536
+batch: 100,	0.0000508
+image augmentation 3
+batch: 0,	0.0000505
+batch: 100,	0.0000601
+image augmentation 4
+batch: 0,	0.0000909
+batch: 100,	0.0000561
+image augmentation 5
+batch: 0,	0.0000552
+batch: 100,	0.0000606
+image augmentation 6
+batch: 0,	0.0000542
+batch: 100,	0.0000514
+image augmentation 7
+batch: 0,	0.0000503
+batch: 100,	0.0000618
+set[2400:3600]
+batch: 0,	0.0001272
+image augmentation 1
+batch: 0,	0.0000769
+image augmentation 2
+batch: 0,	0.0000671
+image augmentation 3
+batch: 0,	0.0000833
+image augmentation 4
+batch: 0,	0.0001260
+image augmentation 5
+batch: 0,	0.0000790
+image augmentation 6
+batch: 0,	0.0000858
+image augmentation 7
+batch: 0,	0.0000696
+epoch: 24,	Avg PSNR 32.4602080
+
+Epoch 25
+set[0:1200]
+batch: 0,	0.0000845
+batch: 100,	0.0000652
+image augmentation 1
+batch: 0,	0.0000610
+batch: 100,	0.0000628
+image augmentation 2
+batch: 0,	0.0000526
+batch: 100,	0.0000572
+image augmentation 3
+batch: 0,	0.0000551
+batch: 100,	0.0000615
+image augmentation 4
+batch: 0,	0.0000821
+batch: 100,	0.0000631
+image augmentation 5
+batch: 0,	0.0000595
+batch: 100,	0.0000600
+image augmentation 6
+batch: 0,	0.0000512
+batch: 100,	0.0000573
+image augmentation 7
+batch: 0,	0.0000538
+batch: 100,	0.0000582
+set[1200:2400]
+batch: 0,	0.0000934
+batch: 100,	0.0000695
+image augmentation 1
+batch: 0,	0.0000525
+batch: 100,	0.0000531
+image augmentation 2
+batch: 0,	0.0000549
+batch: 100,	0.0000633
+image augmentation 3
+batch: 0,	0.0000476
+batch: 100,	0.0000525
+image augmentation 4
+batch: 0,	0.0000994
+batch: 100,	0.0000692
+image augmentation 5
+batch: 0,	0.0000523
+batch: 100,	0.0000528
+image augmentation 6
+batch: 0,	0.0000571
+batch: 100,	0.0000640
+image augmentation 7
+batch: 0,	0.0000474
+batch: 100,	0.0000511
+set[2400:3600]
+batch: 0,	0.0001014
+image augmentation 1
+batch: 0,	0.0000876
+image augmentation 2
+batch: 0,	0.0000754
+image augmentation 3
+batch: 0,	0.0000635
+image augmentation 4
+batch: 0,	0.0000973
+image augmentation 5
+batch: 0,	0.0000917
+image augmentation 6
+batch: 0,	0.0000639
+image augmentation 7
+batch: 0,	0.0000765
+epoch: 25,	Avg PSNR 32.4138556
+
+Epoch 26
+set[0:1200]
+batch: 0,	0.0001024
+batch: 100,	0.0000645
+image augmentation 1
+batch: 0,	0.0000598
+batch: 100,	0.0000525
+image augmentation 2
+batch: 0,	0.0000571
+batch: 100,	0.0000593
+image augmentation 3
+batch: 0,	0.0000541
+batch: 100,	0.0000519
+image augmentation 4
+batch: 0,	0.0000957
+batch: 100,	0.0000629
+image augmentation 5
+batch: 0,	0.0000589
+batch: 100,	0.0000515
+image augmentation 6
+batch: 0,	0.0000561
+batch: 100,	0.0000583
+image augmentation 7
+batch: 0,	0.0000530
+batch: 100,	0.0000535
+set[1200:2400]
+batch: 0,	0.0000981
+batch: 100,	0.0000538
+image augmentation 1
+batch: 0,	0.0000549
+batch: 100,	0.0000539
+image augmentation 2
+batch: 0,	0.0000538
+batch: 100,	0.0000483
+image augmentation 3
+batch: 0,	0.0000490
+batch: 100,	0.0000577
+image augmentation 4
+batch: 0,	0.0000981
+batch: 100,	0.0000536
+image augmentation 5
+batch: 0,	0.0000543
+batch: 100,	0.0000545
+image augmentation 6
+batch: 0,	0.0000544
+batch: 100,	0.0000491
+image augmentation 7
+batch: 0,	0.0000482
+batch: 100,	0.0000561
+set[2400:3600]
+batch: 0,	0.0001312
+image augmentation 1
+batch: 0,	0.0000926
+image augmentation 2
+batch: 0,	0.0000791
+image augmentation 3
+batch: 0,	0.0000834
+image augmentation 4
+batch: 0,	0.0001198
+image augmentation 5
+batch: 0,	0.0000920
+image augmentation 6
+batch: 0,	0.0000868
+image augmentation 7
+batch: 0,	0.0000800
+epoch: 26,	Avg PSNR 32.3446377
+
+Epoch 27
+set[0:1200]
+batch: 0,	0.0001028
+batch: 100,	0.0000667
+image augmentation 1
+batch: 0,	0.0000552
+batch: 100,	0.0000655
+image augmentation 2
+batch: 0,	0.0000560
+batch: 100,	0.0000605
+image augmentation 3
+batch: 0,	0.0000503
+batch: 100,	0.0000652
+image augmentation 4
+batch: 0,	0.0000933
+batch: 100,	0.0000648
+image augmentation 5
+batch: 0,	0.0000532
+batch: 100,	0.0000638
+image augmentation 6
+batch: 0,	0.0000554
+batch: 100,	0.0000594
+image augmentation 7
+batch: 0,	0.0000487
+batch: 100,	0.0000632
+set[1200:2400]
+batch: 0,	0.0000992
+batch: 100,	0.0000558
+image augmentation 1
+batch: 0,	0.0000572
+batch: 100,	0.0000625
+image augmentation 2
+batch: 0,	0.0000574
+batch: 100,	0.0000505
+image augmentation 3
+batch: 0,	0.0000514
+batch: 100,	0.0000635
+image augmentation 4
+batch: 0,	0.0001026
+batch: 100,	0.0000551
+image augmentation 5
+batch: 0,	0.0000563
+batch: 100,	0.0000609
+image augmentation 6
+batch: 0,	0.0000582
+batch: 100,	0.0000500
+image augmentation 7
+batch: 0,	0.0000514
+batch: 100,	0.0000590
+set[2400:3600]
+batch: 0,	0.0001058
+image augmentation 1
+batch: 0,	0.0000763
+image augmentation 2
+batch: 0,	0.0000639
+image augmentation 3
+batch: 0,	0.0000682
+image augmentation 4
+batch: 0,	0.0001072
+image augmentation 5
+batch: 0,	0.0000775
+image augmentation 6
+batch: 0,	0.0000699
+image augmentation 7
+batch: 0,	0.0000682
+epoch: 27,	Avg PSNR 32.5551992
+
+Epoch 28
+set[0:1200]
+batch: 0,	0.0000929
+batch: 100,	0.0000583
+image augmentation 1
+batch: 0,	0.0000600
+batch: 100,	0.0000551
+image augmentation 2
+batch: 0,	0.0000509
+batch: 100,	0.0000544
+image augmentation 3
+batch: 0,	0.0000545
+batch: 100,	0.0000534
+image augmentation 4
+batch: 0,	0.0000883
+batch: 100,	0.0000558
+image augmentation 5
+batch: 0,	0.0000580
+batch: 100,	0.0000526
+image augmentation 6
+batch: 0,	0.0000493
+batch: 100,	0.0000499
+image augmentation 7
+batch: 0,	0.0000523
+batch: 100,	0.0000540
+set[1200:2400]
+batch: 0,	0.0000849
+batch: 100,	0.0000634
+image augmentation 1
+batch: 0,	0.0000500
+batch: 100,	0.0000520
+image augmentation 2
+batch: 0,	0.0000560
+batch: 100,	0.0000565
+image augmentation 3
+batch: 0,	0.0000456
+batch: 100,	0.0000525
+image augmentation 4
+batch: 0,	0.0000912
+batch: 100,	0.0000633
+image augmentation 5
+batch: 0,	0.0000498
+batch: 100,	0.0000516
+image augmentation 6
+batch: 0,	0.0000556
+batch: 100,	0.0000562
+image augmentation 7
+batch: 0,	0.0000455
+batch: 100,	0.0000519
+set[2400:3600]
+batch: 0,	0.0000985
+image augmentation 1
+batch: 0,	0.0000833
+image augmentation 2
+batch: 0,	0.0000725
+image augmentation 3
+batch: 0,	0.0000659
+image augmentation 4
+batch: 0,	0.0000908
+image augmentation 5
+batch: 0,	0.0000838
+image augmentation 6
+batch: 0,	0.0000675
+image augmentation 7
+batch: 0,	0.0000723
+epoch: 28,	Avg PSNR 32.5655689
+
+Epoch 29
+set[0:1200]
+batch: 0,	0.0001215
+batch: 100,	0.0000631
+image augmentation 1
+batch: 0,	0.0000716
+batch: 100,	0.0000535
+image augmentation 2
+batch: 0,	0.0000686
+batch: 100,	0.0000568
+image augmentation 3
+batch: 0,	0.0000644
+batch: 100,	0.0000510
+image augmentation 4
+batch: 0,	0.0001131
+batch: 100,	0.0000605
+image augmentation 5
+batch: 0,	0.0000700
+batch: 100,	0.0000516
+image augmentation 6
+batch: 0,	0.0000669
+batch: 100,	0.0000545
+image augmentation 7
+batch: 0,	0.0000627
+batch: 100,	0.0000504
+set[1200:2400]
+batch: 0,	0.0000931
+batch: 100,	0.0000772
+image augmentation 1
+batch: 0,	0.0000503
+batch: 100,	0.0000499
+image augmentation 2
+batch: 0,	0.0000537
+batch: 100,	0.0000712
+image augmentation 3
+batch: 0,	0.0000459
+batch: 100,	0.0000555
+image augmentation 4
+batch: 0,	0.0001000
+batch: 100,	0.0000759
+image augmentation 5
+batch: 0,	0.0000497
+batch: 100,	0.0000497
+image augmentation 6
+batch: 0,	0.0000535
+batch: 100,	0.0000698
+image augmentation 7
+batch: 0,	0.0000449
+batch: 100,	0.0000529
+set[2400:3600]
+batch: 0,	0.0001137
+image augmentation 1
+batch: 0,	0.0000777
+image augmentation 2
+batch: 0,	0.0000669
+image augmentation 3
+batch: 0,	0.0000800
+image augmentation 4
+batch: 0,	0.0001090
+image augmentation 5
+batch: 0,	0.0000772
+image augmentation 6
+batch: 0,	0.0000822
+image augmentation 7
+batch: 0,	0.0000684
+epoch: 29,	Avg PSNR 32.5936878
+
+Epoch 30
+set[0:1200]
+batch: 0,	0.0001043
+batch: 100,	0.0000604
+image augmentation 1
+batch: 0,	0.0000574
+batch: 100,	0.0000572
+image augmentation 2
+batch: 0,	0.0000618
+batch: 100,	0.0000532
+image augmentation 3
+batch: 0,	0.0000533
+batch: 100,	0.0000563
+image augmentation 4
+batch: 0,	0.0001001
+batch: 100,	0.0000582
+image augmentation 5
+batch: 0,	0.0000566
+batch: 100,	0.0000563
+image augmentation 6
+batch: 0,	0.0000601
+batch: 100,	0.0000521
+image augmentation 7
+batch: 0,	0.0000529
+batch: 100,	0.0000559
+set[1200:2400]
+batch: 0,	0.0000893
+batch: 100,	0.0000534
+image augmentation 1
+batch: 0,	0.0000524
+batch: 100,	0.0000575
+image augmentation 2
+batch: 0,	0.0000518
+batch: 100,	0.0000478
+image augmentation 3
+batch: 0,	0.0000471
+batch: 100,	0.0000595
+image augmentation 4
+batch: 0,	0.0000886
+batch: 100,	0.0000531
+image augmentation 5
+batch: 0,	0.0000526
+batch: 100,	0.0000574
+image augmentation 6
+batch: 0,	0.0000523
+batch: 100,	0.0000474
+image augmentation 7
+batch: 0,	0.0000475
+batch: 100,	0.0000612
+set[2400:3600]
+batch: 0,	0.0001142
+image augmentation 1
+batch: 0,	0.0000770
+image augmentation 2
+batch: 0,	0.0000651
+image augmentation 3
+batch: 0,	0.0000727
+image augmentation 4
+batch: 0,	0.0001134
+image augmentation 5
+batch: 0,	0.0000787
+image augmentation 6
+batch: 0,	0.0000754
+image augmentation 7
+batch: 0,	0.0000683
+epoch: 30,	Avg PSNR 32.3993288
+
+Epoch 31
+set[0:1200]
+batch: 0,	0.0000918
+batch: 100,	0.0000496
+image augmentation 1
+batch: 0,	0.0000680
+batch: 100,	0.0000722
+image augmentation 2
+batch: 0,	0.0000489
+batch: 100,	0.0000445
+image augmentation 3
+batch: 0,	0.0000631
+batch: 100,	0.0000705
+image augmentation 4
+batch: 0,	0.0000856
+batch: 100,	0.0000485
+image augmentation 5
+batch: 0,	0.0000655
+batch: 100,	0.0000703
+image augmentation 6
+batch: 0,	0.0000477
+batch: 100,	0.0000433
+image augmentation 7
+batch: 0,	0.0000595
+batch: 100,	0.0000692
+set[1200:2400]
+batch: 0,	0.0000831
+batch: 100,	0.0000633
+image augmentation 1
+batch: 0,	0.0000556
+batch: 100,	0.0000490
+image augmentation 2
+batch: 0,	0.0000472
+batch: 100,	0.0000569
+image augmentation 3
+batch: 0,	0.0000512
+batch: 100,	0.0000525
+image augmentation 4
+batch: 0,	0.0000855
+batch: 100,	0.0000620
+image augmentation 5
+batch: 0,	0.0000547
+batch: 100,	0.0000485
+image augmentation 6
+batch: 0,	0.0000479
+batch: 100,	0.0000566
+image augmentation 7
+batch: 0,	0.0000501
+batch: 100,	0.0000495
+set[2400:3600]
+batch: 0,	0.0001032
+image augmentation 1
+batch: 0,	0.0000732
+image augmentation 2
+batch: 0,	0.0000646
+image augmentation 3
+batch: 0,	0.0000683
+image augmentation 4
+batch: 0,	0.0000962
+image augmentation 5
+batch: 0,	0.0000740
+image augmentation 6
+batch: 0,	0.0000704
+image augmentation 7
+batch: 0,	0.0000668
+epoch: 31,	Avg PSNR 32.4755030
+
+Epoch 32
+set[0:1200]
+batch: 0,	0.0000923
+batch: 100,	0.0000635
+image augmentation 1
+batch: 0,	0.0000625
+batch: 100,	0.0000602
+image augmentation 2
+batch: 0,	0.0000518
+batch: 100,	0.0000573
+image augmentation 3
+batch: 0,	0.0000584
+batch: 100,	0.0000591
+image augmentation 4
+batch: 0,	0.0000900
+batch: 100,	0.0000614
+image augmentation 5
+batch: 0,	0.0000605
+batch: 100,	0.0000588
+image augmentation 6
+batch: 0,	0.0000496
+batch: 100,	0.0000566
+image augmentation 7
+batch: 0,	0.0000566
+batch: 100,	0.0000595
+set[1200:2400]
+batch: 0,	0.0000971
+batch: 100,	0.0000608
+image augmentation 1
+batch: 0,	0.0000506
+batch: 100,	0.0000512
+image augmentation 2
+batch: 0,	0.0000516
+batch: 100,	0.0000564
+image augmentation 3
+batch: 0,	0.0000461
+batch: 100,	0.0000513
+image augmentation 4
+batch: 0,	0.0000987
+batch: 100,	0.0000602
+image augmentation 5
+batch: 0,	0.0000500
+batch: 100,	0.0000509
+image augmentation 6
+batch: 0,	0.0000516
+batch: 100,	0.0000566
+image augmentation 7
+batch: 0,	0.0000464
+batch: 100,	0.0000499
+set[2400:3600]
+batch: 0,	0.0001155
+image augmentation 1
+batch: 0,	0.0000868
+image augmentation 2
+batch: 0,	0.0000747
+image augmentation 3
+batch: 0,	0.0000712
+image augmentation 4
+batch: 0,	0.0001028
+image augmentation 5
+batch: 0,	0.0000861
+image augmentation 6
+batch: 0,	0.0000718
+image augmentation 7
+batch: 0,	0.0000747
+epoch: 32,	Avg PSNR 32.5739364
+
+Epoch 33
+set[0:1200]
+batch: 0,	0.0001025
+batch: 100,	0.0000557
+image augmentation 1
+batch: 0,	0.0000622
+batch: 100,	0.0000513
+image augmentation 2
+batch: 0,	0.0000560
+batch: 100,	0.0000504
+image augmentation 3
+batch: 0,	0.0000570
+batch: 100,	0.0000512
+image augmentation 4
+batch: 0,	0.0000974
+batch: 100,	0.0000541
+image augmentation 5
+batch: 0,	0.0000606
+batch: 100,	0.0000504
+image augmentation 6
+batch: 0,	0.0000549
+batch: 100,	0.0000494
+image augmentation 7
+batch: 0,	0.0000559
+batch: 100,	0.0000491
+set[1200:2400]
+batch: 0,	0.0000814
+batch: 100,	0.0000470
+image augmentation 1
+batch: 0,	0.0000526
+batch: 100,	0.0000492
+image augmentation 2
+batch: 0,	0.0000445
+batch: 100,	0.0000430
+image augmentation 3
+batch: 0,	0.0000484
+batch: 100,	0.0000476
+image augmentation 4
+batch: 0,	0.0000829
+batch: 100,	0.0000462
+image augmentation 5
+batch: 0,	0.0000518
+batch: 100,	0.0000490
+image augmentation 6
+batch: 0,	0.0000439
+batch: 100,	0.0000415
+image augmentation 7
+batch: 0,	0.0000473
+batch: 100,	0.0000475
+set[2400:3600]
+batch: 0,	0.0000949
+image augmentation 1
+batch: 0,	0.0000828
+image augmentation 2
+batch: 0,	0.0000721
+image augmentation 3
+batch: 0,	0.0000634
+image augmentation 4
+batch: 0,	0.0000879
+image augmentation 5
+batch: 0,	0.0000845
+image augmentation 6
+batch: 0,	0.0000640
+image augmentation 7
+batch: 0,	0.0000744
+epoch: 33,	Avg PSNR 32.5817112
+
+Epoch 34
+set[0:1200]
+batch: 0,	0.0001168
+batch: 100,	0.0000504
+image augmentation 1
+batch: 0,	0.0000552
+batch: 100,	0.0000628
+image augmentation 2
+batch: 0,	0.0000586
+batch: 100,	0.0000474
+image augmentation 3
+batch: 0,	0.0000497
+batch: 100,	0.0000644
+image augmentation 4
+batch: 0,	0.0001033
+batch: 100,	0.0000489
+image augmentation 5
+batch: 0,	0.0000540
+batch: 100,	0.0000605
+image augmentation 6
+batch: 0,	0.0000557
+batch: 100,	0.0000460
+image augmentation 7
+batch: 0,	0.0000483
+batch: 100,	0.0000601
+set[1200:2400]
+batch: 0,	0.0000857
+batch: 100,	0.0000569
+image augmentation 1
+batch: 0,	0.0000498
+batch: 100,	0.0000493
+image augmentation 2
+batch: 0,	0.0000489
+batch: 100,	0.0000531
+image augmentation 3
+batch: 0,	0.0000449
+batch: 100,	0.0000488
+image augmentation 4
+batch: 0,	0.0000855
+batch: 100,	0.0000564
+image augmentation 5
+batch: 0,	0.0000495
+batch: 100,	0.0000493
+image augmentation 6
+batch: 0,	0.0000493
+batch: 100,	0.0000521
+image augmentation 7
+batch: 0,	0.0000445
+batch: 100,	0.0000492
+set[2400:3600]
+batch: 0,	0.0001103
+image augmentation 1
+batch: 0,	0.0000893
+image augmentation 2
+batch: 0,	0.0000766
+image augmentation 3
+batch: 0,	0.0000708
+image augmentation 4
+batch: 0,	0.0001055
+image augmentation 5
+batch: 0,	0.0000904
+image augmentation 6
+batch: 0,	0.0000735
+image augmentation 7
+batch: 0,	0.0000795
+epoch: 34,	Avg PSNR 32.5059675
+
+Epoch 35
+set[0:1200]
+batch: 0,	0.0000935
+batch: 100,	0.0000613
+image augmentation 1
+batch: 0,	0.0000562
+batch: 100,	0.0000477
+image augmentation 2
+batch: 0,	0.0000525
+batch: 100,	0.0000563
+image augmentation 3
+batch: 0,	0.0000517
+batch: 100,	0.0000472
+image augmentation 4
+batch: 0,	0.0000900
+batch: 100,	0.0000590
+image augmentation 5
+batch: 0,	0.0000546
+batch: 100,	0.0000461
+image augmentation 6
+batch: 0,	0.0000509
+batch: 100,	0.0000549
+image augmentation 7
+batch: 0,	0.0000507
+batch: 100,	0.0000469
+set[1200:2400]
+batch: 0,	0.0000788
+batch: 100,	0.0000657
+image augmentation 1
+batch: 0,	0.0000512
+batch: 100,	0.0000567
+image augmentation 2
+batch: 0,	0.0000458
+batch: 100,	0.0000597
+image augmentation 3
+batch: 0,	0.0000470
+batch: 100,	0.0000570
+image augmentation 4
+batch: 0,	0.0000814
+batch: 100,	0.0000653
+image augmentation 5
+batch: 0,	0.0000508
+batch: 100,	0.0000557
+image augmentation 6
+batch: 0,	0.0000453
+batch: 100,	0.0000593
+image augmentation 7
+batch: 0,	0.0000471
+batch: 100,	0.0000559
+set[2400:3600]
+batch: 0,	0.0001308
+image augmentation 1
+batch: 0,	0.0000697
+image augmentation 2
+batch: 0,	0.0000592
+image augmentation 3
+batch: 0,	0.0000930
+image augmentation 4
+batch: 0,	0.0001378
+image augmentation 5
+batch: 0,	0.0000720
+image augmentation 6
+batch: 0,	0.0000955
+image augmentation 7
+batch: 0,	0.0000603
+epoch: 35,	Avg PSNR 32.5759589
+
+Epoch 36
+set[0:1200]
+batch: 0,	0.0001079
+batch: 100,	0.0000706
+image augmentation 1
+batch: 0,	0.0000553
+batch: 100,	0.0000501
+image augmentation 2
+batch: 0,	0.0000564
+batch: 100,	0.0000637
+image augmentation 3
+batch: 0,	0.0000496
+batch: 100,	0.0000503
+image augmentation 4
+batch: 0,	0.0001017
+batch: 100,	0.0000688
+image augmentation 5
+batch: 0,	0.0000530
+batch: 100,	0.0000493
+image augmentation 6
+batch: 0,	0.0000541
+batch: 100,	0.0000629
+image augmentation 7
+batch: 0,	0.0000477
+batch: 100,	0.0000500
+set[1200:2400]
+batch: 0,	0.0000835
+batch: 100,	0.0000516
+image augmentation 1
+batch: 0,	0.0000529
+batch: 100,	0.0000523
+image augmentation 2
+batch: 0,	0.0000519
+batch: 100,	0.0000472
+image augmentation 3
+batch: 0,	0.0000476
+batch: 100,	0.0000536
+image augmentation 4
+batch: 0,	0.0000874
+batch: 100,	0.0000519
+image augmentation 5
+batch: 0,	0.0000522
+batch: 100,	0.0000515
+image augmentation 6
+batch: 0,	0.0000520
+batch: 100,	0.0000469
+image augmentation 7
+batch: 0,	0.0000475
+batch: 100,	0.0000517
+set[2400:3600]
+batch: 0,	0.0001123
+image augmentation 1
+batch: 0,	0.0000864
+image augmentation 2
+batch: 0,	0.0000742
+image augmentation 3
+batch: 0,	0.0000714
+image augmentation 4
+batch: 0,	0.0001070
+image augmentation 5
+batch: 0,	0.0000873
+image augmentation 6
+batch: 0,	0.0000747
+image augmentation 7
+batch: 0,	0.0000761
+epoch: 36,	Avg PSNR 32.6275948
+
+Epoch 37
+set[0:1200]
+batch: 0,	0.0000909
+batch: 100,	0.0000543
+image augmentation 1
+batch: 0,	0.0000622
+batch: 100,	0.0000522
+image augmentation 2
+batch: 0,	0.0000523
+batch: 100,	0.0000492
+image augmentation 3
+batch: 0,	0.0000567
+batch: 100,	0.0000514
+image augmentation 4
+batch: 0,	0.0000858
+batch: 100,	0.0000531
+image augmentation 5
+batch: 0,	0.0000603
+batch: 100,	0.0000517
+image augmentation 6
+batch: 0,	0.0000519
+batch: 100,	0.0000493
+image augmentation 7
+batch: 0,	0.0000553
+batch: 100,	0.0000517
+set[1200:2400]
+batch: 0,	0.0000823
+batch: 100,	0.0000557
+image augmentation 1
+batch: 0,	0.0000434
+batch: 100,	0.0000542
+image augmentation 2
+batch: 0,	0.0000422
+batch: 100,	0.0000512
+image augmentation 3
+batch: 0,	0.0000389
+batch: 100,	0.0000552
+image augmentation 4
+batch: 0,	0.0000859
+batch: 100,	0.0000562
+image augmentation 5
+batch: 0,	0.0000430
+batch: 100,	0.0000528
+image augmentation 6
+batch: 0,	0.0000421
+batch: 100,	0.0000512
+image augmentation 7
+batch: 0,	0.0000388
+batch: 100,	0.0000530
+set[2400:3600]
+batch: 0,	0.0001175
+image augmentation 1
+batch: 0,	0.0000812
+image augmentation 2
+batch: 0,	0.0000725
+image augmentation 3
+batch: 0,	0.0000741
+image augmentation 4
+batch: 0,	0.0001032
+image augmentation 5
+batch: 0,	0.0000809
+image augmentation 6
+batch: 0,	0.0000765
+image augmentation 7
+batch: 0,	0.0000717
+epoch: 37,	Avg PSNR 32.5180007
+
+Epoch 38
+set[0:1200]
+batch: 0,	0.0000919
+batch: 100,	0.0000498
+image augmentation 1
+batch: 0,	0.0000622
+batch: 100,	0.0000551
+image augmentation 2
+batch: 0,	0.0000550
+batch: 100,	0.0000457
+image augmentation 3
+batch: 0,	0.0000560
+batch: 100,	0.0000555
+image augmentation 4
+batch: 0,	0.0000860
+batch: 100,	0.0000484
+image augmentation 5
+batch: 0,	0.0000601
+batch: 100,	0.0000539
+image augmentation 6
+batch: 0,	0.0000542
+batch: 100,	0.0000452
+image augmentation 7
+batch: 0,	0.0000547
+batch: 100,	0.0000542
+set[1200:2400]
+batch: 0,	0.0000905
+batch: 100,	0.0000522
+image augmentation 1
+batch: 0,	0.0000427
+batch: 100,	0.0000468
+image augmentation 2
+batch: 0,	0.0000474
+batch: 100,	0.0000476
+image augmentation 3
+batch: 0,	0.0000390
+batch: 100,	0.0000481
+image augmentation 4
+batch: 0,	0.0000917
+batch: 100,	0.0000522
+image augmentation 5
+batch: 0,	0.0000424
+batch: 100,	0.0000470
+image augmentation 6
+batch: 0,	0.0000479
+batch: 100,	0.0000472
+image augmentation 7
+batch: 0,	0.0000383
+batch: 100,	0.0000471
+set[2400:3600]
+batch: 0,	0.0001072
+image augmentation 1
+batch: 0,	0.0000718
+image augmentation 2
+batch: 0,	0.0000640
+image augmentation 3
+batch: 0,	0.0000699
+image augmentation 4
+batch: 0,	0.0001070
+image augmentation 5
+batch: 0,	0.0000739
+image augmentation 6
+batch: 0,	0.0000748
+image augmentation 7
+batch: 0,	0.0000634
+epoch: 38,	Avg PSNR 32.4552378
+
+Epoch 39
+set[0:1200]
+batch: 0,	0.0000961
+batch: 100,	0.0000601
+image augmentation 1
+batch: 0,	0.0000688
+batch: 100,	0.0000597
+image augmentation 2
+batch: 0,	0.0000538
+batch: 100,	0.0000544
+image augmentation 3
+batch: 0,	0.0000609
+batch: 100,	0.0000586
+image augmentation 4
+batch: 0,	0.0000894
+batch: 100,	0.0000585
+image augmentation 5
+batch: 0,	0.0000669
+batch: 100,	0.0000587
+image augmentation 6
+batch: 0,	0.0000520
+batch: 100,	0.0000540
+image augmentation 7
+batch: 0,	0.0000598
+batch: 100,	0.0000577
+set[1200:2400]
+batch: 0,	0.0000855
+batch: 100,	0.0000514
+image augmentation 1
+batch: 0,	0.0000425
+batch: 100,	0.0000477
+image augmentation 2
+batch: 0,	0.0000446
+batch: 100,	0.0000460
+image augmentation 3
+batch: 0,	0.0000386
+batch: 100,	0.0000494
+image augmentation 4
+batch: 0,	0.0000899
+batch: 100,	0.0000520
+image augmentation 5
+batch: 0,	0.0000424
+batch: 100,	0.0000480
+image augmentation 6
+batch: 0,	0.0000448
+batch: 100,	0.0000464
+image augmentation 7
+batch: 0,	0.0000385
+batch: 100,	0.0000489
+set[2400:3600]
+batch: 0,	0.0000992
+image augmentation 1
+batch: 0,	0.0000860
+image augmentation 2
+batch: 0,	0.0000761
+image augmentation 3
+batch: 0,	0.0000632
+image augmentation 4
+batch: 0,	0.0000965
+image augmentation 5
+batch: 0,	0.0000873
+image augmentation 6
+batch: 0,	0.0000657
+image augmentation 7
+batch: 0,	0.0000766
+epoch: 39,	Avg PSNR 32.6162241
+
+Epoch 40
+set[0:1200]
+batch: 0,	0.0000939
+batch: 100,	0.0000587
+image augmentation 1
+batch: 0,	0.0000517
+batch: 100,	0.0000497
+image augmentation 2
+batch: 0,	0.0000556
+batch: 100,	0.0000517
+image augmentation 3
+batch: 0,	0.0000474
+batch: 100,	0.0000487
+image augmentation 4
+batch: 0,	0.0000874
+batch: 100,	0.0000564
+image augmentation 5
+batch: 0,	0.0000501
+batch: 100,	0.0000491
+image augmentation 6
+batch: 0,	0.0000536
+batch: 100,	0.0000497
+image augmentation 7
+batch: 0,	0.0000462
+batch: 100,	0.0000494
+set[1200:2400]
+batch: 0,	0.0000870
+batch: 100,	0.0000527
+image augmentation 1
+batch: 0,	0.0000503
+batch: 100,	0.0000577
+image augmentation 2
+batch: 0,	0.0000505
+batch: 100,	0.0000492
+image augmentation 3
+batch: 0,	0.0000467
+batch: 100,	0.0000598
+image augmentation 4
+batch: 0,	0.0000877
+batch: 100,	0.0000528
+image augmentation 5
+batch: 0,	0.0000500
+batch: 100,	0.0000572
+image augmentation 6
+batch: 0,	0.0000497
+batch: 100,	0.0000481
+image augmentation 7
+batch: 0,	0.0000468
+batch: 100,	0.0000576
+set[2400:3600]
+batch: 0,	0.0001061
+image augmentation 1
+batch: 0,	0.0000842
+image augmentation 2
+batch: 0,	0.0000736
+image augmentation 3
+batch: 0,	0.0000578
+image augmentation 4
+batch: 0,	0.0000884
+image augmentation 5
+batch: 0,	0.0000871
+image augmentation 6
+batch: 0,	0.0000596
+image augmentation 7
+batch: 0,	0.0000762
+epoch: 40,	Avg PSNR 32.5831890
+
+Epoch 41
+set[0:1200]
+batch: 0,	0.0001001
+batch: 100,	0.0000625
+image augmentation 1
+batch: 0,	0.0000618
+batch: 100,	0.0000547
+image augmentation 2
+batch: 0,	0.0000591
+batch: 100,	0.0000563
+image augmentation 3
+batch: 0,	0.0000542
+batch: 100,	0.0000554
+image augmentation 4
+batch: 0,	0.0000941
+batch: 100,	0.0000606
+image augmentation 5
+batch: 0,	0.0000601
+batch: 100,	0.0000535
+image augmentation 6
+batch: 0,	0.0000569
+batch: 100,	0.0000554
+image augmentation 7
+batch: 0,	0.0000537
+batch: 100,	0.0000533
+set[1200:2400]
+batch: 0,	0.0000806
+batch: 100,	0.0000449
+image augmentation 1
+batch: 0,	0.0000543
+batch: 100,	0.0000431
+image augmentation 2
+batch: 0,	0.0000448
+batch: 100,	0.0000417
+image augmentation 3
+batch: 0,	0.0000494
+batch: 100,	0.0000463
+image augmentation 4
+batch: 0,	0.0000798
+batch: 100,	0.0000452
+image augmentation 5
+batch: 0,	0.0000540
+batch: 100,	0.0000433
+image augmentation 6
+batch: 0,	0.0000445
+batch: 100,	0.0000416
+image augmentation 7
+batch: 0,	0.0000488
+batch: 100,	0.0000437
+set[2400:3600]
+batch: 0,	0.0001090
+image augmentation 1
+batch: 0,	0.0000803
+image augmentation 2
+batch: 0,	0.0000668
+image augmentation 3
+batch: 0,	0.0000752
+image augmentation 4
+batch: 0,	0.0001036
+image augmentation 5
+batch: 0,	0.0000816
+image augmentation 6
+batch: 0,	0.0000770
+image augmentation 7
+batch: 0,	0.0000710
+epoch: 41,	Avg PSNR 32.6063942
+
+Epoch 42
+set[0:1200]
+batch: 0,	0.0000888
+batch: 100,	0.0000592
+image augmentation 1
+batch: 0,	0.0000517
+batch: 100,	0.0000685
+image augmentation 2
+batch: 0,	0.0000490
+batch: 100,	0.0000523
+image augmentation 3
+batch: 0,	0.0000467
+batch: 100,	0.0000683
+image augmentation 4
+batch: 0,	0.0000858
+batch: 100,	0.0000568
+image augmentation 5
+batch: 0,	0.0000496
+batch: 100,	0.0000673
+image augmentation 6
+batch: 0,	0.0000483
+batch: 100,	0.0000502
+image augmentation 7
+batch: 0,	0.0000448
+batch: 100,	0.0000674
+set[1200:2400]
+batch: 0,	0.0000829
+batch: 100,	0.0000475
+image augmentation 1
+batch: 0,	0.0000481
+batch: 100,	0.0000474
+image augmentation 2
+batch: 0,	0.0000459
+batch: 100,	0.0000430
+image augmentation 3
+batch: 0,	0.0000432
+batch: 100,	0.0000468
+image augmentation 4
+batch: 0,	0.0000822
+batch: 100,	0.0000472
+image augmentation 5
+batch: 0,	0.0000477
+batch: 100,	0.0000475
+image augmentation 6
+batch: 0,	0.0000457
+batch: 100,	0.0000443
+image augmentation 7
+batch: 0,	0.0000429
+batch: 100,	0.0000474
+set[2400:3600]
+batch: 0,	0.0001255
+image augmentation 1
+batch: 0,	0.0000902
+image augmentation 2
+batch: 0,	0.0000782
+image augmentation 3
+batch: 0,	0.0000860
+image augmentation 4
+batch: 0,	0.0001158
+image augmentation 5
+batch: 0,	0.0000917
+image augmentation 6
+batch: 0,	0.0000875
+image augmentation 7
+batch: 0,	0.0000804
+epoch: 42,	Avg PSNR 32.5832716
+
+Epoch 43
+set[0:1200]
+batch: 0,	0.0000954
+batch: 100,	0.0000629
+image augmentation 1
+batch: 0,	0.0000486
+batch: 100,	0.0000521
+image augmentation 2
+batch: 0,	0.0000590
+batch: 100,	0.0000569
+image augmentation 3
+batch: 0,	0.0000448
+batch: 100,	0.0000521
+image augmentation 4
+batch: 0,	0.0000887
+batch: 100,	0.0000608
+image augmentation 5
+batch: 0,	0.0000471
+batch: 100,	0.0000507
+image augmentation 6
+batch: 0,	0.0000579
+batch: 100,	0.0000562
+image augmentation 7
+batch: 0,	0.0000436
+batch: 100,	0.0000512
+set[1200:2400]
+batch: 0,	0.0000820
+batch: 100,	0.0000537
+image augmentation 1
+batch: 0,	0.0000502
+batch: 100,	0.0000475
+image augmentation 2
+batch: 0,	0.0000459
+batch: 100,	0.0000504
+image augmentation 3
+batch: 0,	0.0000452
+batch: 100,	0.0000470
+image augmentation 4
+batch: 0,	0.0000808
+batch: 100,	0.0000542
+image augmentation 5
+batch: 0,	0.0000496
+batch: 100,	0.0000466
+image augmentation 6
+batch: 0,	0.0000458
+batch: 100,	0.0000505
+image augmentation 7
+batch: 0,	0.0000449
+batch: 100,	0.0000466
+set[2400:3600]
+batch: 0,	0.0000932
+image augmentation 1
+batch: 0,	0.0000642
+image augmentation 2
+batch: 0,	0.0000568
+image augmentation 3
+batch: 0,	0.0000625
+image augmentation 4
+batch: 0,	0.0000943
+image augmentation 5
+batch: 0,	0.0000646
+image augmentation 6
+batch: 0,	0.0000652
+image augmentation 7
+batch: 0,	0.0000578
+epoch: 43,	Avg PSNR 32.5447640
+
+Epoch 44
+set[0:1200]
+batch: 0,	0.0000790
+batch: 100,	0.0000558
+image augmentation 1
+batch: 0,	0.0000494
+batch: 100,	0.0000531
+image augmentation 2
+batch: 0,	0.0000495
+batch: 100,	0.0000507
+image augmentation 3
+batch: 0,	0.0000450
+batch: 100,	0.0000510
+image augmentation 4
+batch: 0,	0.0000756
+batch: 100,	0.0000546
+image augmentation 5
+batch: 0,	0.0000478
+batch: 100,	0.0000522
+image augmentation 6
+batch: 0,	0.0000483
+batch: 100,	0.0000504
+image augmentation 7
+batch: 0,	0.0000444
+batch: 100,	0.0000513
+set[1200:2400]
+batch: 0,	0.0000844
+batch: 100,	0.0000486
+image augmentation 1
+batch: 0,	0.0000539
+batch: 100,	0.0000488
+image augmentation 2
+batch: 0,	0.0000460
+batch: 100,	0.0000422
+image augmentation 3
+batch: 0,	0.0000497
+batch: 100,	0.0000492
+image augmentation 4
+batch: 0,	0.0000814
+batch: 100,	0.0000477
+image augmentation 5
+batch: 0,	0.0000542
+batch: 100,	0.0000490
+image augmentation 6
+batch: 0,	0.0000456
+batch: 100,	0.0000424
+image augmentation 7
+batch: 0,	0.0000498
+batch: 100,	0.0000531
+set[2400:3600]
+batch: 0,	0.0001092
+image augmentation 1
+batch: 0,	0.0000906
+image augmentation 2
+batch: 0,	0.0000789
+image augmentation 3
+batch: 0,	0.0000716
+image augmentation 4
+batch: 0,	0.0001020
+image augmentation 5
+batch: 0,	0.0000932
+image augmentation 6
+batch: 0,	0.0000746
+image augmentation 7
+batch: 0,	0.0000810
+epoch: 44,	Avg PSNR 32.6139692
+
+Epoch 45
+set[0:1200]
+batch: 0,	0.0000807
+batch: 100,	0.0000525
+image augmentation 1
+batch: 0,	0.0000585
+batch: 100,	0.0000508
+image augmentation 2
+batch: 0,	0.0000449
+batch: 100,	0.0000480
+image augmentation 3
+batch: 0,	0.0000520
+batch: 100,	0.0000505
+image augmentation 4
+batch: 0,	0.0000740
+batch: 100,	0.0000509
+image augmentation 5
+batch: 0,	0.0000569
+batch: 100,	0.0000498
+image augmentation 6
+batch: 0,	0.0000440
+batch: 100,	0.0000463
+image augmentation 7
+batch: 0,	0.0000505
+batch: 100,	0.0000508
+set[1200:2400]
+batch: 0,	0.0000843
+batch: 100,	0.0000501
+image augmentation 1
+batch: 0,	0.0000503
+batch: 100,	0.0000487
+image augmentation 2
+batch: 0,	0.0000492
+batch: 100,	0.0000451
+image augmentation 3
+batch: 0,	0.0000469
+batch: 100,	0.0000482
+image augmentation 4
+batch: 0,	0.0000838
+batch: 100,	0.0000497
+image augmentation 5
+batch: 0,	0.0000501
+batch: 100,	0.0000492
+image augmentation 6
+batch: 0,	0.0000498
+batch: 100,	0.0000455
+image augmentation 7
+batch: 0,	0.0000466
+batch: 100,	0.0000512
+set[2400:3600]
+batch: 0,	0.0000922
+image augmentation 1
+batch: 0,	0.0000731
+image augmentation 2
+batch: 0,	0.0000637
+image augmentation 3
+batch: 0,	0.0000632
+image augmentation 4
+batch: 0,	0.0000844
+image augmentation 5
+batch: 0,	0.0000750
+image augmentation 6
+batch: 0,	0.0000630
+image augmentation 7
+batch: 0,	0.0000654
+epoch: 45,	Avg PSNR 32.5447397
+
+Epoch 46
+set[0:1200]
+batch: 0,	0.0000951
+batch: 100,	0.0000504
+image augmentation 1
+batch: 0,	0.0000500
+batch: 100,	0.0000432
+image augmentation 2
+batch: 0,	0.0000491
+batch: 100,	0.0000454
+image augmentation 3
+batch: 0,	0.0000445
+batch: 100,	0.0000430
+image augmentation 4
+batch: 0,	0.0000853
+batch: 100,	0.0000489
+image augmentation 5
+batch: 0,	0.0000481
+batch: 100,	0.0000422
+image augmentation 6
+batch: 0,	0.0000470
+batch: 100,	0.0000445
+image augmentation 7
+batch: 0,	0.0000434
+batch: 100,	0.0000414
+set[1200:2400]
+batch: 0,	0.0000892
+batch: 100,	0.0000536
+image augmentation 1
+batch: 0,	0.0000542
+batch: 100,	0.0000473
+image augmentation 2
+batch: 0,	0.0000487
+batch: 100,	0.0000484
+image augmentation 3
+batch: 0,	0.0000508
+batch: 100,	0.0000480
+image augmentation 4
+batch: 0,	0.0000871
+batch: 100,	0.0000530
+image augmentation 5
+batch: 0,	0.0000536
+batch: 100,	0.0000467
+image augmentation 6
+batch: 0,	0.0000485
+batch: 100,	0.0000477
+image augmentation 7
+batch: 0,	0.0000502
+batch: 100,	0.0000509
+set[2400:3600]
+batch: 0,	0.0001028
+image augmentation 1
+batch: 0,	0.0000712
+image augmentation 2
+batch: 0,	0.0000628
+image augmentation 3
+batch: 0,	0.0000703
+image augmentation 4
+batch: 0,	0.0000991
+image augmentation 5
+batch: 0,	0.0000742
+image augmentation 6
+batch: 0,	0.0000723
+image augmentation 7
+batch: 0,	0.0000654
+epoch: 46,	Avg PSNR 32.6035742
+
+Epoch 47
+set[0:1200]
+batch: 0,	0.0000930
+batch: 100,	0.0000638
+image augmentation 1
+batch: 0,	0.0000527
+batch: 100,	0.0000475
+image augmentation 2
+batch: 0,	0.0000518
+batch: 100,	0.0000577
+image augmentation 3
+batch: 0,	0.0000474
+batch: 100,	0.0000463
+image augmentation 4
+batch: 0,	0.0000902
+batch: 100,	0.0000620
+image augmentation 5
+batch: 0,	0.0000510
+batch: 100,	0.0000466
+image augmentation 6
+batch: 0,	0.0000502
+batch: 100,	0.0000568
+image augmentation 7
+batch: 0,	0.0000462
+batch: 100,	0.0000470
+set[1200:2400]
+batch: 0,	0.0000836
+batch: 100,	0.0000499
+image augmentation 1
+batch: 0,	0.0000534
+batch: 100,	0.0000481
+image augmentation 2
+batch: 0,	0.0000490
+batch: 100,	0.0000461
+image augmentation 3
+batch: 0,	0.0000490
+batch: 100,	0.0000520
+image augmentation 4
+batch: 0,	0.0000842
+batch: 100,	0.0000492
+image augmentation 5
+batch: 0,	0.0000532
+batch: 100,	0.0000479
+image augmentation 6
+batch: 0,	0.0000491
+batch: 100,	0.0000455
+image augmentation 7
+batch: 0,	0.0000492
+batch: 100,	0.0000485
+set[2400:3600]
+batch: 0,	0.0000998
+image augmentation 1
+batch: 0,	0.0000905
+image augmentation 2
+batch: 0,	0.0000805
+image augmentation 3
+batch: 0,	0.0000673
+image augmentation 4
+batch: 0,	0.0000965
+image augmentation 5
+batch: 0,	0.0000923
+image augmentation 6
+batch: 0,	0.0000693
+image augmentation 7
+batch: 0,	0.0000798
+epoch: 47,	Avg PSNR 32.4202813
+
+Epoch 48
+set[0:1200]
+batch: 0,	0.0000925
+batch: 100,	0.0000732
+image augmentation 1
+batch: 0,	0.0000536
+batch: 100,	0.0000509
+image augmentation 2
+batch: 0,	0.0000501
+batch: 100,	0.0000678
+image augmentation 3
+batch: 0,	0.0000483
+batch: 100,	0.0000512
+image augmentation 4
+batch: 0,	0.0000838
+batch: 100,	0.0000714
+image augmentation 5
+batch: 0,	0.0000516
+batch: 100,	0.0000492
+image augmentation 6
+batch: 0,	0.0000483
+batch: 100,	0.0000663
+image augmentation 7
+batch: 0,	0.0000464
+batch: 100,	0.0000500
+set[1200:2400]
+batch: 0,	0.0000832
+batch: 100,	0.0000550
+image augmentation 1
+batch: 0,	0.0000516
+batch: 100,	0.0000435
+image augmentation 2
+batch: 0,	0.0000514
+batch: 100,	0.0000499
+image augmentation 3
+batch: 0,	0.0000481
+batch: 100,	0.0000442
+image augmentation 4
+batch: 0,	0.0000867
+batch: 100,	0.0000543
+image augmentation 5
+batch: 0,	0.0000512
+batch: 100,	0.0000436
+image augmentation 6
+batch: 0,	0.0000531
+batch: 100,	0.0000495
+image augmentation 7
+batch: 0,	0.0000481
+batch: 100,	0.0000445
+set[2400:3600]
+batch: 0,	0.0001042
+image augmentation 1
+batch: 0,	0.0000791
+image augmentation 2
+batch: 0,	0.0000688
+image augmentation 3
+batch: 0,	0.0000739
+image augmentation 4
+batch: 0,	0.0001022
+image augmentation 5
+batch: 0,	0.0000803
+image augmentation 6
+batch: 0,	0.0000763
+image augmentation 7
+batch: 0,	0.0000722
+epoch: 48,	Avg PSNR 32.5281634
+
+Epoch 49
+set[0:1200]
+batch: 0,	0.0000855
+batch: 100,	0.0000549
+image augmentation 1
+batch: 0,	0.0000580
+batch: 100,	0.0000526
+image augmentation 2
+batch: 0,	0.0000466
+batch: 100,	0.0000507
+image augmentation 3
+batch: 0,	0.0000539
+batch: 100,	0.0000525
+image augmentation 4
+batch: 0,	0.0000760
+batch: 100,	0.0000540
+image augmentation 5
+batch: 0,	0.0000567
+batch: 100,	0.0000522
+image augmentation 6
+batch: 0,	0.0000453
+batch: 100,	0.0000499
+image augmentation 7
+batch: 0,	0.0000524
+batch: 100,	0.0000517
+set[1200:2400]
+batch: 0,	0.0000797
+batch: 100,	0.0000466
+image augmentation 1
+batch: 0,	0.0000472
+batch: 100,	0.0000464
+image augmentation 2
+batch: 0,	0.0000485
+batch: 100,	0.0000430
+image augmentation 3
+batch: 0,	0.0000437
+batch: 100,	0.0000477
+image augmentation 4
+batch: 0,	0.0000833
+batch: 100,	0.0000465
+image augmentation 5
+batch: 0,	0.0000465
+batch: 100,	0.0000452
+image augmentation 6
+batch: 0,	0.0000481
+batch: 100,	0.0000430
+image augmentation 7
+batch: 0,	0.0000433
+batch: 100,	0.0000450
+set[2400:3600]
+batch: 0,	0.0000976
+image augmentation 1
+batch: 0,	0.0000739
+image augmentation 2
+batch: 0,	0.0000677
+image augmentation 3
+batch: 0,	0.0000682
+image augmentation 4
+batch: 0,	0.0000943
+image augmentation 5
+batch: 0,	0.0000753
+image augmentation 6
+batch: 0,	0.0000723
+image augmentation 7
+batch: 0,	0.0000662
+epoch: 49,	Avg PSNR 32.6061579
+training time for 1 epoch:  53630.85625910759
+X_test.shape:  torch.Size([354, 1, 512, 512])
+y_test.shape:  torch.Size([354, 1, 512, 512])
+image:  0 PSNR:  37.97288299217776
+image:  1 PSNR:  32.96343872919871
+image:  2 PSNR:  37.86792501884874
+image:  3 PSNR:  38.15971096674379
+image:  4 PSNR:  32.99942009063334
+image:  5 PSNR:  33.09937856064179
+image:  6 PSNR:  38.7977562180553
+image:  7 PSNR:  36.63358056311584
+image:  8 PSNR:  34.808026272886714
+image:  9 PSNR:  34.702365159832446
+image:  10 PSNR:  31.89919755009072
+image:  11 PSNR:  34.296172482811954
+image:  12 PSNR:  30.684581150188578
+image:  13 PSNR:  32.72552980936914
+image:  14 PSNR:  33.333808155354696
+image:  15 PSNR:  32.48190758053605
+image:  16 PSNR:  31.660621210268154
+image:  17 PSNR:  33.59773801003929
+image:  18 PSNR:  34.420776379024936
+image:  19 PSNR:  32.29694159632096
+image:  20 PSNR:  34.3747281718946
+image:  21 PSNR:  32.84949180239017
+image:  22 PSNR:  32.219169320454164
+image:  23 PSNR:  32.18433184498496
+image:  24 PSNR:  34.609104046912876
+image:  25 PSNR:  33.47609111774357
+image:  26 PSNR:  33.253589633181605
+image:  27 PSNR:  33.575956907916236
+image:  28 PSNR:  33.54727590706864
+image:  29 PSNR:  34.58044638788149
+image:  30 PSNR:  32.768869856306445
+image:  31 PSNR:  33.27001266446848
+image:  32 PSNR:  32.92001571698587
+image:  33 PSNR:  34.743679735537214
+image:  34 PSNR:  33.563442936781286
+image:  35 PSNR:  33.527931349627025
+image:  36 PSNR:  33.53260706547776
+image:  37 PSNR:  34.13123140914176
+image:  38 PSNR:  33.085473543984236
+image:  39 PSNR:  33.844354319093064
+image:  40 PSNR:  33.87769515784293
+image:  41 PSNR:  35.080830927076185
+image:  42 PSNR:  36.3924889535827
+image:  43 PSNR:  33.98493186611044
+image:  44 PSNR:  34.197064914127424
+image:  45 PSNR:  33.2888522597423
+image:  46 PSNR:  33.8770678695407
+image:  47 PSNR:  37.51954298445037
+image:  48 PSNR:  32.77708870592083
+image:  49 PSNR:  33.59992053580994
+image:  50 PSNR:  36.46580418654882
+image:  51 PSNR:  32.27144006354125
+image:  52 PSNR:  33.44184703028421
+image:  53 PSNR:  31.80060575657906
+image:  54 PSNR:  31.552450595026965
+image:  55 PSNR:  32.387200647556725
+image:  56 PSNR:  34.4306592174311
+image:  57 PSNR:  34.99110347530334
+image:  58 PSNR:  35.16578119469001
+image:  59 PSNR:  35.246972685128654
+image:  60 PSNR:  34.13837121708192
+image:  61 PSNR:  34.1477473675221
+image:  62 PSNR:  33.54981527491968
+image:  63 PSNR:  31.65589703558132
+image:  64 PSNR:  36.01430195032735
+image:  65 PSNR:  36.94499929410147
+image:  66 PSNR:  31.8028230364034
+image:  67 PSNR:  33.41555548048244
+image:  68 PSNR:  36.69285651568087
+image:  69 PSNR:  36.38629671165575
+image:  70 PSNR:  35.49836577505961
+image:  71 PSNR:  33.615455277606145
+image:  72 PSNR:  34.79585455588888
+image:  73 PSNR:  34.80188879344417
+image:  74 PSNR:  31.53297673922083
+image:  75 PSNR:  34.29014171710363
+image:  76 PSNR:  32.61725837106395
+image:  77 PSNR:  36.30751348080477
+image:  78 PSNR:  36.29291602520773
+image:  79 PSNR:  36.78026786539316
+image:  80 PSNR:  33.97522530161419
+image:  81 PSNR:  33.510087949638766
+image:  82 PSNR:  33.03934690239082
+image:  83 PSNR:  34.481844792159485
+image:  84 PSNR:  32.88239260760382
+image:  85 PSNR:  33.781137583912006
+image:  86 PSNR:  37.10372152277121
+image:  87 PSNR:  32.93039986361315
+image:  88 PSNR:  37.55203832332495
+image:  89 PSNR:  33.52756331875731
+image:  90 PSNR:  33.557064418547014
+image:  91 PSNR:  31.707010593981263
+image:  92 PSNR:  37.03510058616428
+image:  93 PSNR:  32.7644607407523
+image:  94 PSNR:  32.4697313266915
+image:  95 PSNR:  37.16834763995567
+image:  96 PSNR:  32.15327994234167
+image:  97 PSNR:  35.038329931826745
+image:  98 PSNR:  34.07981280460302
+image:  99 PSNR:  32.927455099291485
+image:  100 PSNR:  34.10060183618037
+image:  101 PSNR:  31.59579039409863
+image:  102 PSNR:  33.20222949669169
+image:  103 PSNR:  31.06812066246963
+image:  104 PSNR:  33.58623004237503
+image:  105 PSNR:  34.26790526027834
+image:  106 PSNR:  35.00659663068694
+image:  107 PSNR:  31.436983018158916
+image:  108 PSNR:  33.70789367119021
+image:  109 PSNR:  31.25455354974775
+image:  110 PSNR:  31.18560825847173
+image:  111 PSNR:  32.766635640607646
+image:  112 PSNR:  32.45101489887543
+image:  113 PSNR:  33.776299469054166
+image:  114 PSNR:  31.663927162070635
+image:  115 PSNR:  33.648124954402505
+image:  116 PSNR:  32.22224827300769
+image:  117 PSNR:  34.125598625791156
+image:  118 PSNR:  32.816619183167674
+image:  119 PSNR:  34.83956525433182
+image:  120 PSNR:  35.88818929473773
+image:  121 PSNR:  33.96162191145941
+image:  122 PSNR:  36.35947815492666
+image:  123 PSNR:  32.521333995543856
+image:  124 PSNR:  34.3805091056156
+image:  125 PSNR:  36.14172641564802
+image:  126 PSNR:  34.46594145552015
+image:  127 PSNR:  36.06274122873447
+image:  128 PSNR:  33.063454997124325
+image:  129 PSNR:  33.90462869050336
+image:  130 PSNR:  31.831236880570934
+image:  131 PSNR:  33.007878540110845
+image:  132 PSNR:  32.510832744723544
+image:  133 PSNR:  31.714405501645146
+image:  134 PSNR:  35.468536657865975
+image:  135 PSNR:  32.111297762866414
+image:  136 PSNR:  33.2157339487316
+image:  137 PSNR:  33.36173204831955
+image:  138 PSNR:  32.83357152726687
+image:  139 PSNR:  37.44942114877563
+image:  140 PSNR:  33.83960130078635
+image:  141 PSNR:  37.16973925778533
+image:  142 PSNR:  34.185942591872525
+image:  143 PSNR:  34.12506434592509
+image:  144 PSNR:  34.1472922621446
+image:  145 PSNR:  34.678372754245274
+image:  146 PSNR:  34.32634638939045
+image:  147 PSNR:  33.53091349532835
+image:  148 PSNR:  32.02821201257958
+image:  149 PSNR:  32.740392850797946
+image:  150 PSNR:  32.903323877190765
+image:  151 PSNR:  32.82969477913564
+image:  152 PSNR:  31.305332668945628
+image:  153 PSNR:  32.70105945213881
+image:  154 PSNR:  31.81121361274215
+image:  155 PSNR:  33.492113447067865
+image:  156 PSNR:  33.10811887716488
+image:  157 PSNR:  34.671018588593206
+image:  158 PSNR:  32.85368032461962
+image:  159 PSNR:  33.629509113349386
+image:  160 PSNR:  32.822255943812394
+image:  161 PSNR:  33.67686735831529
+image:  162 PSNR:  32.573907981788004
+image:  163 PSNR:  37.24413942401721
+image:  164 PSNR:  32.51095815751686
+image:  165 PSNR:  32.68954968317321
+image:  166 PSNR:  33.13160390229657
+image:  167 PSNR:  36.071291007523484
+image:  168 PSNR:  32.15539455191764
+image:  169 PSNR:  32.23734955187944
+image:  170 PSNR:  31.956009956886643
+image:  171 PSNR:  32.33069163124482
+image:  172 PSNR:  32.18136232449441
+image:  173 PSNR:  33.1159149384444
+image:  174 PSNR:  31.897712908537628
+image:  175 PSNR:  33.139596449216164
+image:  176 PSNR:  32.195664537383
+image:  177 PSNR:  32.38967702581226
+image:  178 PSNR:  33.533415634976066
+image:  179 PSNR:  31.444915902059005
+image:  180 PSNR:  34.36328230209582
+image:  181 PSNR:  33.858235649858024
+image:  182 PSNR:  34.06097600068161
+image:  183 PSNR:  32.89177963731949
+image:  184 PSNR:  32.81017113572328
+image:  185 PSNR:  33.41327790967593
+image:  186 PSNR:  32.42657702911011
+image:  187 PSNR:  32.79512729190078
+image:  188 PSNR:  31.665380650982982
+image:  189 PSNR:  32.689722592455844
+image:  190 PSNR:  31.622544092936657
+image:  191 PSNR:  32.6037999492064
+image:  192 PSNR:  33.00393180579205
+image:  193 PSNR:  34.65594110200011
+image:  194 PSNR:  33.18276829296239
+image:  195 PSNR:  32.818237072538416
+image:  196 PSNR:  30.46280432313411
+image:  197 PSNR:  32.592071203996376
+image:  198 PSNR:  32.61498828002223
+image:  199 PSNR:  32.584793005350875
+image:  200 PSNR:  35.243175900458354
+image:  201 PSNR:  33.72494467105732
+image:  202 PSNR:  37.63949783174962
+image:  203 PSNR:  37.744707518358624
+image:  204 PSNR:  34.063016114097756
+image:  205 PSNR:  35.88243175793961
+image:  206 PSNR:  34.761800586445744
+image:  207 PSNR:  33.50926151826141
+image:  208 PSNR:  35.357984827756205
+image:  209 PSNR:  38.53820566244427
+image:  210 PSNR:  35.19631248724255
+image:  211 PSNR:  32.88638365528086
+image:  212 PSNR:  31.511983546504116
+image:  213 PSNR:  36.13536608833058
+image:  214 PSNR:  33.67741365419589
+image:  215 PSNR:  32.24838205020137
+image:  216 PSNR:  35.101744735298894
+image:  217 PSNR:  34.16345491609206
+image:  218 PSNR:  33.30871985668179
+image:  219 PSNR:  37.54251240140761
+image:  220 PSNR:  33.56356429347782
+image:  221 PSNR:  31.762934189693716
+image:  222 PSNR:  32.785747687689174
+image:  223 PSNR:  31.47372948936063
+image:  224 PSNR:  37.45162642299762
+image:  225 PSNR:  32.69850624740814
+image:  226 PSNR:  33.105263473094965
+image:  227 PSNR:  31.216250620967344
+image:  228 PSNR:  33.341725498873814
+image:  229 PSNR:  36.838757837845996
+image:  230 PSNR:  33.69526584537071
+image:  231 PSNR:  37.87848769265014
+image:  232 PSNR:  33.95950979138891
+image:  233 PSNR:  36.21758563125124
+image:  234 PSNR:  34.58711802741211
+image:  235 PSNR:  33.553480901783225
+image:  236 PSNR:  33.29294769298322
+image:  237 PSNR:  32.501922784070594
+image:  238 PSNR:  33.11998815819876
+image:  239 PSNR:  34.63291680771482
+image:  240 PSNR:  34.03871979212419
+image:  241 PSNR:  33.80111014596297
+image:  242 PSNR:  36.5929055150367
+image:  243 PSNR:  33.98250178535197
+image:  244 PSNR:  33.569095111958156
+image:  245 PSNR:  33.55980463856127
+image:  246 PSNR:  34.351445960357346
+image:  247 PSNR:  32.355315708118006
+image:  248 PSNR:  34.86065899056268
+image:  249 PSNR:  31.927752809928936
+image:  250 PSNR:  33.27473022648554
+image:  251 PSNR:  35.915376919706155
+image:  252 PSNR:  33.96901684280124
+image:  253 PSNR:  37.28695964689067
+image:  254 PSNR:  33.72963258283314
+image:  255 PSNR:  31.16498686968557
+image:  256 PSNR:  33.87378286008475
+image:  257 PSNR:  34.59159126816668
+image:  258 PSNR:  34.490925586463526
+image:  259 PSNR:  32.33786130013592
+image:  260 PSNR:  34.72733858508001
+image:  261 PSNR:  30.829285716315688
+image:  262 PSNR:  32.45438449936205
+image:  263 PSNR:  34.19083095761293
+image:  264 PSNR:  31.072905375483234
+image:  265 PSNR:  34.257194174315636
+image:  266 PSNR:  34.76457700293543
+image:  267 PSNR:  36.69568695555529
+image:  268 PSNR:  33.543337323758706
+image:  269 PSNR:  38.99167587843991
+image:  270 PSNR:  35.262717793259725
+image:  271 PSNR:  38.71214348263002
+image:  272 PSNR:  34.90797023088192
+image:  273 PSNR:  36.27186161355736
+image:  274 PSNR:  32.58546874639996
+image:  275 PSNR:  33.519644664064614
+image:  276 PSNR:  33.091149179559615
+image:  277 PSNR:  33.55810942568866
+image:  278 PSNR:  37.02428764082376
+image:  279 PSNR:  34.330657417311905
+image:  280 PSNR:  33.573047711400335
+image:  281 PSNR:  34.2311744805913
+image:  282 PSNR:  34.26982480121988
+image:  283 PSNR:  33.59450419567391
+image:  284 PSNR:  34.00376117027904
+image:  285 PSNR:  32.368544801993615
+image:  286 PSNR:  31.84426831494996
+image:  287 PSNR:  31.855061067369817
+image:  288 PSNR:  32.333749614743894
+image:  289 PSNR:  32.40941510172265
+image:  290 PSNR:  34.32906114666031
+image:  291 PSNR:  32.60799111213484
+image:  292 PSNR:  36.64383230307862
+image:  293 PSNR:  37.034156990202696
+image:  294 PSNR:  34.37812718853758
+image:  295 PSNR:  32.88076153081314
+image:  296 PSNR:  32.12525730536885
+image:  297 PSNR:  34.12047945195984
+image:  298 PSNR:  33.42118902844224
+image:  299 PSNR:  37.85731994813857
+image:  300 PSNR:  36.72597920676623
+image:  301 PSNR:  38.85849516757998
+image:  302 PSNR:  37.388037183067794
+image:  303 PSNR:  40.327320354352224
+image:  304 PSNR:  37.77357654034902
+image:  305 PSNR:  37.01146036937957
+image:  306 PSNR:  37.60611050593614
+image:  307 PSNR:  36.1674622020861
+image:  308 PSNR:  38.32608115622327
+image:  309 PSNR:  36.19127263855568
+image:  310 PSNR:  37.06744655921632
+image:  311 PSNR:  37.13387474736213
+image:  312 PSNR:  39.363010863933056
+image:  313 PSNR:  40.01374557387814
+image:  314 PSNR:  37.88555695708871
+image:  315 PSNR:  36.730097375142854
+image:  316 PSNR:  38.14507282821896
+image:  317 PSNR:  32.35268349831848
+image:  318 PSNR:  34.707113545324255
+image:  319 PSNR:  32.73520823573022
+image:  320 PSNR:  32.167792700472
+image:  321 PSNR:  37.47349413547836
+image:  322 PSNR:  37.75913012735811
+image:  323 PSNR:  37.7709775916245
+image:  324 PSNR:  36.160720005898554
+image:  325 PSNR:  36.855847373238625
+image:  326 PSNR:  32.97123884914732
+image:  327 PSNR:  33.083626712152
+image:  328 PSNR:  33.31203713309772
+image:  329 PSNR:  33.71285886988098
+image:  330 PSNR:  35.647351485414106
+image:  331 PSNR:  31.942984041040564
+image:  332 PSNR:  33.77724639868627
+image:  333 PSNR:  35.34491619164431
+image:  334 PSNR:  35.261184327345546
+image:  335 PSNR:  33.10599152912506
+image:  336 PSNR:  32.48976898388547
+image:  337 PSNR:  33.84889251037932
+image:  338 PSNR:  34.21191265722199
+image:  339 PSNR:  35.6885612674576
+image:  340 PSNR:  36.506130578038906
+image:  341 PSNR:  35.12597103165268
+image:  342 PSNR:  32.069387845387915
+image:  343 PSNR:  34.25423904856627
+image:  344 PSNR:  34.22409485814039
+image:  345 PSNR:  33.76304318072504
+image:  346 PSNR:  32.23656924253871
+image:  347 PSNR:  34.54877557801702
+image:  348 PSNR:  32.88907336186493
+image:  349 PSNR:  34.869113480061216
+image:  350 PSNR:  31.070731648548254
+image:  351 PSNR:  33.63154688178977
+image:  352 PSNR:  34.35650587362391
+image:  353 PSNR:  35.28334914101926
+Avg PSNR:  34.09160802542528
+denoising all
+i:  0
+i:  1
+i:  2
+i:  3
+i:  4
+i:  5
+i:  6
+i:  7
+i:  8
+torch.Size([354, 1, 512, 512])
